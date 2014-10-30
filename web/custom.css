@@ -1,0 +1,43 @@
+#clients-flexslider {
+    display: none;
+}
+
+#clients-flexslider .flex-viewport ul li {
+    width: auto !important;
+}
+
+#clients-flexslider .flex-viewport ul li a img {
+    width: auto;
+    height: 75px;
+}
+
+#texto-lugar {
+    display: block;
+    float: left;
+    width: 60%;
+}
+
+#mapa-lugar {
+    display: block;
+    float: right;
+}
+
+#texto-coorganizador {
+    display: block;
+    float: left;
+    width: 60%;
+}
+#logo-coorganizador {
+    display: block;
+    float: right;
+}
+
+.da-img .btn-u.btn-u-light-green {
+    display: none;
+}
+
+.foto-speaker-internacional {
+    margin-left: 15px;
+    height: 100px;
+    width: 100px;
+}
