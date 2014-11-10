@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="programa cambios mios.svg"
+   sodipodi:docname="programa.svg"
    inkscape:export-filename="/home/orfi/Escritorio/programa.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -1427,8 +1427,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2187156"
-     inkscape:cx="747.26866"
-     inkscape:cy="-1336.7171"
+     inkscape:cx="274.72961"
+     inkscape:cy="369.99774"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -1451,7 +1451,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2263,7 +2263,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
-       style="fill:#ececec;stroke:none;display:inline"
+       style="fill:#f9f9f9;stroke:none;display:inline"
        id="rect4740-5"
        width="526.18109"
        height="744.09448"
