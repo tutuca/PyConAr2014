@@ -1426,9 +1426,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.3046789"
-     inkscape:cx="1418.1422"
-     inkscape:cy="-600.05861"
+     inkscape:zoom="0.86176206"
+     inkscape:cx="1085.0662"
+     inkscape:cy="-327.51088"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -1451,7 +1451,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1557,7 +1557,7 @@
          id="tspan5348"
          x="55.367867"
          y="886.75427"
-         style="font-size:22px">Código de conduta</tspan></text>
+         style="font-size:22px">Código de conducta</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5350"
