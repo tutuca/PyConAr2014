@@ -1426,9 +1426,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.43088103"
-     inkscape:cx="260.99697"
-     inkscape:cy="-909.03753"
+     inkscape:zoom="0.3046789"
+     inkscape:cx="1418.1422"
+     inkscape:cy="-600.05861"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -1460,6 +1460,13 @@
      id="layer2"
      inkscape:label="Tapa"
      style="display:inline">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4579"
+       width="2343.4507"
+       height="2546.9436"
+       x="-91.900032"
+       y="-53.466492" />
     <rect
        y="833.23438"
        x="6.1282592"
