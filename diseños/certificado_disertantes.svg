@@ -124,7 +124,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="382.03817"
+     inkscape:cx="384.89531"
      inkscape:cy="355.70211"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -182,22 +182,6 @@
        inkscape:export-filename="/home/orfi/Escritorio/certificado.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-size:37.86008453px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="345.25363"
-       y="611.76398"
-       id="text5100-0"
-       sodipodi:linespacing="125%"
-       transform="scale(0.94650218,1.0565216)"
-       inkscape:export-filename="/home/orfi/Escritorio/certificado.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan5102-1"
-         x="345.25363"
-         y="611.76398"
-         style="font-size:34.07407761px">Certificado de disertante</tspan></text>
     <g
        id="g5142-8"
        transform="matrix(0.83483027,0,0,1,81.974598,-4.8693085)"
@@ -212,23 +196,6 @@
       <path
          inkscape:connector-curvature="0"
          id="path5122-1-9"
-         d="m 281.84306,608.21932 c 164.21474,0 328.4295,0 492.64424,0"
-         style="fill:none;stroke:#000000;stroke-width:0.69599998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    </g>
-    <g
-       transform="matrix(0.83483027,0,0,1,81.974598,52.059271)"
-       id="g5142-7-1"
-       inkscape:export-filename="/home/orfi/Escritorio/certificado.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <path
-         inkscape:connector-curvature="0"
-         id="path5122-4-1"
-         d="m 281.84306,611.50504 c 164.21474,0 328.4295,0 492.64424,0"
-         style="fill:none;stroke:#000000;stroke-width:0.69599998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path5122-1-0-1"
          d="m 281.84306,608.21932 c 164.21474,0 328.4295,0 492.64424,0"
          style="fill:none;stroke:#000000;stroke-width:0.69599998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
@@ -502,7 +469,7 @@
        sodipodi:cy="132.28575"
        sodipodi:rx="48.948284"
        sodipodi:ry="8.6066771"
-       d="m 110.46717,132.28575 a 48.948284,8.6066771 0 1 1 -97.896571,0 48.948284,8.6066771 0 1 1 97.896571,0 z"
+       d="m 110.46717,132.28575 c 0,4.75334 -21.914896,8.60668 -48.948287,8.60668 -27.033391,0 -48.948284,-3.85334 -48.948284,-8.60668 0,-4.75334 21.914893,-8.60668 48.948284,-8.60668 27.033391,0 48.948287,3.85334 48.948287,8.60668 z"
        transform="matrix(1.534875,0,0,1.0871729,436.26949,800.65912)"
        inkscape:export-filename="/home/orfi/Escritorio/certificado.png"
        inkscape:export-xdpi="90"
@@ -535,31 +502,29 @@
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="527.96448"
-       y="707.62195"
+       x="522.25018"
+       y="666.19336"
        id="text5104-4"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="531.46643"
-         y="707.62195"
+         x="525.75214"
+         y="666.19336"
          id="tspan5110-6"
          style="font-size:22px">PyAr, el grupo de usuarios Python Argentina, agradece la colaboración de </tspan><tspan
          sodipodi:role="line"
-         x="531.46643"
-         y="735.12195"
+         x="525.75214"
+         y="693.69336"
          style="font-size:22px"
-         id="tspan3228">_____________________________________ por su participación como <tspan
-   style="font-weight:bold;-inkscape-font-specification:Sans Bold"
-   id="tspan3234">disertante</tspan> en </tspan><tspan
+         id="tspan3228">_____________________________________ por su participación como _________________ </tspan><tspan
          sodipodi:role="line"
-         x="531.46643"
-         y="762.62195"
+         x="525.75214"
+         y="721.19336"
          style="font-size:22px"
-         id="tspan3194-9">la Sexta Conferencia Argentina de Python realizada en Rafaela, Santa Fe los días </tspan><tspan
+         id="tspan3194-9">en la Sexta Conferencia Argentina de Python realizada en Rafaela, Santa Fe </tspan><tspan
          sodipodi:role="line"
-         x="527.96448"
-         y="790.12195"
+         x="522.25018"
+         y="748.69336"
          style="font-size:22px"
-         id="tspan3232">13, 14 y 15 de Noviembre de 2014, se le otorga el presente certificado.</tspan></text>
+         id="tspan3232">los días 13, 14 y 15 de Noviembre de 2014, se le otorga el presente certificado.</tspan></text>
   </g>
 </svg>
