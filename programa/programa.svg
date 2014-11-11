@@ -1427,8 +1427,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.6093578"
-     inkscape:cx="1800.8109"
-     inkscape:cy="-1151.4464"
+     inkscape:cx="379.27596"
+     inkscape:cy="373.95106"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -1467,6 +1467,25 @@
        height="2546.9436"
        x="-91.900032"
        y="-53.466492" />
+    <rect
+       inkscape:export-ydpi="256.32928"
+       inkscape:export-xdpi="256.32928"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa1.png"
+       y="0.0063220765"
+       x="0.0063272053"
+       height="744.08185"
+       width="539.58569"
+       id="rect3754"
+       style="fill:#ffffff;stroke:#b3b3b3;stroke-width:1.01264894" />
+    <path
+       inkscape:export-ydpi="256.32928"
+       inkscape:export-xdpi="256.32928"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa1.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3742"
+       d="m 530.53052,-0.00207363 521.83368,0 0,744.09863363 -521.83368,0 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0.99586308000000001;stroke-opacity:1" />
     <rect
        y="833.23438"
        x="6.1282592"
@@ -2213,31 +2232,12 @@
        x="25.972292"
        y="150.07762" />
     <rect
-       inkscape:export-ydpi="256.32928"
-       inkscape:export-xdpi="256.32928"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa1.png"
-       y="0.0063220765"
-       x="0.0063272053"
-       height="744.08185"
-       width="539.58569"
-       id="rect3754"
-       style="fill:#ffffff;stroke:#b3b3b3;stroke-width:1.01264894" />
-    <rect
        y="115.24254"
        x="42.189182"
        height="20.520027"
        width="447.33661"
        id="rect3730-9"
        style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa1.png"
-       inkscape:export-xdpi="256.32928"
-       inkscape:export-ydpi="256.32928" />
-    <path
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;display:inline"
-       d="m 526.78407,0.47262555 525.36063,0 0,743.52336445 -525.36063,0 z"
-       id="rect3852-9"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc"
        inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa1.png"
        inkscape:export-xdpi="256.32928"
        inkscape:export-ydpi="256.32928" />
@@ -10043,15 +10043,6 @@
        inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa3.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
-    <path
-       inkscape:export-ydpi="256.32928"
-       inkscape:export-xdpi="256.32928"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa1.png"
-       sodipodi:nodetypes="ccccc"
-       inkscape:connector-curvature="0"
-       id="path3742"
-       d="m 530.53052,-0.00207363 521.83368,0 0,744.09863363 -521.83368,0 z"
-       style="fill:none;stroke:#000000;stroke-width:0.99586308;stroke-opacity:1" />
   </g>
   <g
      inkscape:label="Segunda"
