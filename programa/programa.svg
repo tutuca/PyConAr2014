@@ -1426,9 +1426,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.86176207"
-     inkscape:cx="1511.2071"
-     inkscape:cy="-437.72543"
+     inkscape:zoom="0.43088103"
+     inkscape:cx="1048.5501"
+     inkscape:cy="-1331.0237"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -1451,7 +1451,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1790,7 +1790,7 @@
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <rect
-       style="fill:#306998;fill-opacity:1;stroke:none"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none"
        id="rect6024"
        width="921.25983"
        height="14.173228"
@@ -1828,7 +1828,7 @@
          x="2141.7195"
          y="731.81726">10</tspan></text>
     <rect
-       style="fill:#306998;fill-opacity:1;stroke:none"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none"
        id="rect6085"
        width="921.25983"
        height="14.173228"
@@ -1866,7 +1866,7 @@
          id="tspan6095"
          sodipodi:role="line">3</tspan></text>
     <rect
-       style="fill:#306998;fill-opacity:1;stroke:none"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none"
        id="rect6126"
        width="921.25983"
        height="14.173228"
@@ -1904,7 +1904,7 @@
          id="tspan6136"
          sodipodi:role="line">9</tspan></text>
     <rect
-       style="fill:#306998;fill-opacity:1;stroke:none"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none"
        id="rect6149"
        width="921.25983"
        height="14.173228"
@@ -1933,7 +1933,7 @@
        height="14.173228"
        width="921.25983"
        id="rect6165"
-       style="fill:#306998;fill-opacity:1;stroke:none"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none"
        inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
@@ -2034,12 +2034,12 @@
        height="14.173228"
        width="1037.7568"
        id="rect7628"
-       style="fill:#306998;fill-opacity:1;stroke:none"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none"
        inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <rect
-       style="fill:#306998;fill-opacity:1;stroke:none"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none"
        id="rect7636"
        width="1037.7568"
        height="14.173228"
@@ -2049,7 +2049,7 @@
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <rect
-       style="fill:#306998;fill-opacity:1;stroke:none"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none"
        id="rect7638"
        width="1037.7568"
        height="14.173228"
@@ -2064,7 +2064,7 @@
        height="14.173228"
        width="1037.7568"
        id="rect7640"
-       style="fill:#306998;fill-opacity:1;stroke:none"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none"
        inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa3.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
@@ -2074,7 +2074,7 @@
        height="14.173228"
        width="1037.7568"
        id="rect7642"
-       style="fill:#306998;fill-opacity:1;stroke:none"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none"
        inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa2.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
@@ -8536,25 +8536,37 @@
        d="m 581.76001,1758.6873 195.69783,0 0,6.5643 7.68774,6.5643 -7.68774,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.69783,0 z"
        id="rect4582"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <path
        style="fill:none;stroke:#808080;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;display:inline"
        d="m 581.81369,1821.048 195.69783,0 0,6.5643 7.68774,6.5643 -7.68774,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.69783,0 z"
        id="rect4582-1"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <path
        style="fill:none;stroke:#808080;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;display:inline"
        d="m 581.8164,1884.3305 195.69783,0 0,6.5643 7.68774,6.5643 -7.68774,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.69783,0 z"
        id="rect4582-1-0"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <path
        style="fill:none;stroke:#808080;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;display:inline"
        d="m 581.81639,1947.9734 195.69783,0 0,6.5643 7.68774,6.5643 -7.68774,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.69783,0 z"
        id="rect4582-1-0-2"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="2047.8337"
@@ -8604,7 +8616,10 @@
        d="m 581.81368,2010.5917 195.69783,0 0,6.5643 7.68774,6.5643 -7.68774,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.69783,0 z"
        id="rect4582-1-0-2-8"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="2111.6284"
@@ -8654,7 +8669,10 @@
        d="m 581.81639,2074.3864 195.69783,0 0,6.5643 7.68774,6.5643 -7.68774,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.69783,0 z"
        id="rect4582-1-0-2-8-3"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="2174.8447"
@@ -8704,13 +8722,19 @@
        d="m 581.79054,2137.6028 195.69783,0 0,6.5643 7.68774,6.5643 -7.68774,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.69783,0 z"
        id="rect4582-1-0-2-8-3-1"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <path
        style="fill:none;stroke:#808080;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;display:inline"
        d="m 581.79054,2199.6849 195.69783,0 0,6.5643 7.68774,6.5643 -7.68774,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.69783,0 z"
        id="rect4582-1-0-2-8-3-1-2"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="2300.1487"
@@ -8760,7 +8784,10 @@
        d="m 581.81368,2262.9066 195.69783,0 0,6.5643 7.68774,6.5643 -7.68774,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.69783,0 z"
        id="rect4582-1-0-2-8-3-1-1"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="1858.0508"
@@ -8810,7 +8837,10 @@
        d="m 1015.9752,1821.4583 -195.69784,0 0,6.5643 -7.6877,6.5643 7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 195.69784,0 z"
        id="rect4582-1-2"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="1921.2319"
@@ -8860,7 +8890,10 @@
        d="m 1015.7699,1884.6395 -195.69789,0 0,6.5643 -7.6877,6.5643 7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 195.69789,0 z"
        id="rect4582-1-2-6"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="1984.4132"
@@ -8910,7 +8943,10 @@
        d="m 1015.6175,1947.8208 -195.69784,0 0,6.5643 -7.6877,6.5643 7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 195.69784,0 z"
        id="rect4582-1-2-6-0"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="2047.5948"
@@ -8960,7 +8996,10 @@
        d="m 1015.6174,2011.0019 -195.69771,0 0,6.5643 -7.6877,6.5643 7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 195.69771,0 z"
        id="rect4582-1-2-6-0-5"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="2111.2432"
@@ -9010,7 +9049,10 @@
        d="m 1015.3787,2074.6503 -195.69769,0 0,6.5643 -7.6877,6.5643 7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 195.69769,0 z"
        id="rect4582-1-2-6-0-5-9"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="2174.1956"
@@ -9060,7 +9102,10 @@
        d="m 1015.6381,2137.6028 -195.69771,0 0,6.5643 -7.6877,6.5643 7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 195.69771,0 z"
        id="rect4582-1-2-6-0-5-9-8"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="1864.1598"
@@ -9069,7 +9114,7 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABHNCSVQICAgIfAhkiAAAAnhJREFU SIntl01IVFEYhp87NydrMn9KBh2yJJOphsLCfkDDhQhZqxRrEYFIWYsIalWLCooWZQWtJDAIW0a1 0KiFClGRlCk1WGHqmA5qqfkz4+gd5962Xr0z9yjXXNS7PPc937P4vvOecyVN0zSWQbblgC4reMVi N0YmB/F19jE8JZPg3ETWhiTipCUEa6FuGh5WU9vYTWjWurQ+h5KTlRzJSREqKi1kuLSAl9or16jr jbbFwe5TNzhfmEacSS3xHmsTtD24EwMKEKTl/l2e+2dMywmD1ZFmHr8OCDh91NV1Mm0VeLqvlR5B 79i3r4xELAKrSoiwqFmZRFEtAscluUgSNSenk2gy2sJge0YeuUJkG+4CD2tNzrT4VK/cQkn5Phxm vo0llOetMy0sBNbC4/R3dRHcVsnVilwSo/jkzENcvFTMGn8HPUMhYrU5doBoQTrqq7n3qJlBFZBd HCg/w1H3KG9eNPH+yw9GpmUSnJvZmVdEoTtAY001T70TADiyD3L63HH2ps6PkxjgGQZeXudCTfv8 aU5xk5+/hx1ZLpLjVQI/fbR/fMurll6m5npTi7h8swKPQ9/0qGBtrJlbZ2/zYV6lhSuttIqqsgxd jEbpscpoaz0tFkAB+hsa6FH0a1HAIbredWLZ0+T3Jz4P6fPbGBwe5rtfOKcENIDXr09vY3BknP5x C7lEGB0MMDu+jcGqQlAx/LJohScV3bk2BksSssWvMZtsY/aBMi5vT8OTbiV2NZnZ+ieRMVh2UnCi iFSLsPbtxyjbukq3FiO5VCY6mnjyrIk23y8CZhfsXEky8Yku3PuLKT28C6ddMLmWWv/en8R/8F/T HxT339TSLm6nAAAAAElFTkSuQmCC "
        height="14.933334"
        width="14"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <text
@@ -9079,7 +9124,7 @@
        y="1855.4078"
        id="text5487-3-6-9-8-8-3-93"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751"><tspan
          sodipodi:role="line"
@@ -9110,7 +9155,10 @@
        d="m 1691.7988,1827.5674 195.6979,0 0,6.5643 7.6877,6.5643 -7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.6979,0 z"
        id="rect4582-1-5"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="1864.5701"
@@ -9119,7 +9167,7 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABHNCSVQICAgIfAhkiAAAAnhJREFU SIntl01IVFEYhp87NydrMn9KBh2yJJOphsLCfkDDhQhZqxRrEYFIWYsIalWLCooWZQWtJDAIW0a1 0KiFClGRlCk1WGHqmA5qqfkz4+gd5962Xr0z9yjXXNS7PPc937P4vvOecyVN0zSWQbblgC4reMVi N0YmB/F19jE8JZPg3ETWhiTipCUEa6FuGh5WU9vYTWjWurQ+h5KTlRzJSREqKi1kuLSAl9or16jr jbbFwe5TNzhfmEacSS3xHmsTtD24EwMKEKTl/l2e+2dMywmD1ZFmHr8OCDh91NV1Mm0VeLqvlR5B 79i3r4xELAKrSoiwqFmZRFEtAscluUgSNSenk2gy2sJge0YeuUJkG+4CD2tNzrT4VK/cQkn5Phxm vo0llOetMy0sBNbC4/R3dRHcVsnVilwSo/jkzENcvFTMGn8HPUMhYrU5doBoQTrqq7n3qJlBFZBd HCg/w1H3KG9eNPH+yw9GpmUSnJvZmVdEoTtAY001T70TADiyD3L63HH2ps6PkxjgGQZeXudCTfv8 aU5xk5+/hx1ZLpLjVQI/fbR/fMurll6m5npTi7h8swKPQ9/0qGBtrJlbZ2/zYV6lhSuttIqqsgxd jEbpscpoaz0tFkAB+hsa6FH0a1HAIbredWLZ0+T3Jz4P6fPbGBwe5rtfOKcENIDXr09vY3BknP5x C7lEGB0MMDu+jcGqQlAx/LJohScV3bk2BksSssWvMZtsY/aBMi5vT8OTbiV2NZnZ+ieRMVh2UnCi iFSLsPbtxyjbukq3FiO5VCY6mnjyrIk23y8CZhfsXEky8Yku3PuLKT28C6ddMLmWWv/en8R/8F/T HxT339TSLm6nAAAAAElFTkSuQmCC "
        height="14.933334"
        width="14"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <text
@@ -9129,7 +9177,7 @@
        y="1855.8181"
        id="text5487-3-6-9-8-8-3-7-3"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751"><tspan
          sodipodi:role="line"
@@ -9160,7 +9208,10 @@
        d="m 2125.9603,1827.9777 -195.6978,0 0,6.5643 -7.6877,6.5643 7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 195.6978,0 z"
        id="rect4582-1-2-7"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="1922.6678"
@@ -9169,7 +9220,7 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABHNCSVQICAgIfAhkiAAAAnhJREFU SIntl01IVFEYhp87NydrMn9KBh2yJJOphsLCfkDDhQhZqxRrEYFIWYsIalWLCooWZQWtJDAIW0a1 0KiFClGRlCk1WGHqmA5qqfkz4+gd5962Xr0z9yjXXNS7PPc937P4vvOecyVN0zSWQbblgC4reMVi N0YmB/F19jE8JZPg3ETWhiTipCUEa6FuGh5WU9vYTWjWurQ+h5KTlRzJSREqKi1kuLSAl9or16jr jbbFwe5TNzhfmEacSS3xHmsTtD24EwMKEKTl/l2e+2dMywmD1ZFmHr8OCDh91NV1Mm0VeLqvlR5B 79i3r4xELAKrSoiwqFmZRFEtAscluUgSNSenk2gy2sJge0YeuUJkG+4CD2tNzrT4VK/cQkn5Phxm vo0llOetMy0sBNbC4/R3dRHcVsnVilwSo/jkzENcvFTMGn8HPUMhYrU5doBoQTrqq7n3qJlBFZBd HCg/w1H3KG9eNPH+yw9GpmUSnJvZmVdEoTtAY001T70TADiyD3L63HH2ps6PkxjgGQZeXudCTfv8 aU5xk5+/hx1ZLpLjVQI/fbR/fMurll6m5npTi7h8swKPQ9/0qGBtrJlbZ2/zYV6lhSuttIqqsgxd jEbpscpoaz0tFkAB+hsa6FH0a1HAIbredWLZ0+T3Jz4P6fPbGBwe5rtfOKcENIDXr09vY3BknP5x C7lEGB0MMDu+jcGqQlAx/LJohScV3bk2BksSssWvMZtsY/aBMi5vT8OTbiV2NZnZ+ieRMVh2UnCi iFSLsPbtxyjbukq3FiO5VCY6mnjyrIk23y8CZhfsXEky8Yku3PuLKT28C6ddMLmWWv/en8R/8F/T HxT339TSLm6nAAAAAElFTkSuQmCC "
        height="14.933334"
        width="14"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <text
@@ -9179,7 +9230,7 @@
        y="1913.9159"
        id="text5487-3-6-9-8-8-3-93-2"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751"><tspan
          sodipodi:role="line"
@@ -9210,7 +9261,10 @@
        d="m 1691.641,1886.0754 195.6979,0 0,6.5643 7.6877,6.5643 -7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.6979,0 z"
        id="rect4582-1-5-8"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="1923.0781"
@@ -9219,7 +9273,7 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABHNCSVQICAgIfAhkiAAAAnhJREFU SIntl01IVFEYhp87NydrMn9KBh2yJJOphsLCfkDDhQhZqxRrEYFIWYsIalWLCooWZQWtJDAIW0a1 0KiFClGRlCk1WGHqmA5qqfkz4+gd5962Xr0z9yjXXNS7PPc937P4vvOecyVN0zSWQbblgC4reMVi N0YmB/F19jE8JZPg3ETWhiTipCUEa6FuGh5WU9vYTWjWurQ+h5KTlRzJSREqKi1kuLSAl9or16jr jbbFwe5TNzhfmEacSS3xHmsTtD24EwMKEKTl/l2e+2dMywmD1ZFmHr8OCDh91NV1Mm0VeLqvlR5B 79i3r4xELAKrSoiwqFmZRFEtAscluUgSNSenk2gy2sJge0YeuUJkG+4CD2tNzrT4VK/cQkn5Phxm vo0llOetMy0sBNbC4/R3dRHcVsnVilwSo/jkzENcvFTMGn8HPUMhYrU5doBoQTrqq7n3qJlBFZBd HCg/w1H3KG9eNPH+yw9GpmUSnJvZmVdEoTtAY001T70TADiyD3L63HH2ps6PkxjgGQZeXudCTfv8 aU5xk5+/hx1ZLpLjVQI/fbR/fMurll6m5npTi7h8swKPQ9/0qGBtrJlbZ2/zYV6lhSuttIqqsgxd jEbpscpoaz0tFkAB+hsa6FH0a1HAIbredWLZ0+T3Jz4P6fPbGBwe5rtfOKcENIDXr09vY3BknP5x C7lEGB0MMDu+jcGqQlAx/LJohScV3bk2BksSssWvMZtsY/aBMi5vT8OTbiV2NZnZ+ieRMVh2UnCi iFSLsPbtxyjbukq3FiO5VCY6mnjyrIk23y8CZhfsXEky8Yku3PuLKT28C6ddMLmWWv/en8R/8F/T HxT339TSLm6nAAAAAElFTkSuQmCC "
        height="14.933334"
        width="14"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <text
@@ -9229,7 +9283,7 @@
        y="1914.3262"
        id="text5487-3-6-9-8-8-3-7-3-1"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751"><tspan
          sodipodi:role="line"
@@ -9260,7 +9314,10 @@
        d="m 2125.8025,1886.4857 -195.6978,0 0,6.5643 -7.6877,6.5643 7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 195.6978,0 z"
        id="rect4582-1-2-7-2"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="1983.7979"
@@ -9269,7 +9326,7 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABHNCSVQICAgIfAhkiAAAAnhJREFU SIntl01IVFEYhp87NydrMn9KBh2yJJOphsLCfkDDhQhZqxRrEYFIWYsIalWLCooWZQWtJDAIW0a1 0KiFClGRlCk1WGHqmA5qqfkz4+gd5962Xr0z9yjXXNS7PPc937P4vvOecyVN0zSWQbblgC4reMVi N0YmB/F19jE8JZPg3ETWhiTipCUEa6FuGh5WU9vYTWjWurQ+h5KTlRzJSREqKi1kuLSAl9or16jr jbbFwe5TNzhfmEacSS3xHmsTtD24EwMKEKTl/l2e+2dMywmD1ZFmHr8OCDh91NV1Mm0VeLqvlR5B 79i3r4xELAKrSoiwqFmZRFEtAscluUgSNSenk2gy2sJge0YeuUJkG+4CD2tNzrT4VK/cQkn5Phxm vo0llOetMy0sBNbC4/R3dRHcVsnVilwSo/jkzENcvFTMGn8HPUMhYrU5doBoQTrqq7n3qJlBFZBd HCg/w1H3KG9eNPH+yw9GpmUSnJvZmVdEoTtAY001T70TADiyD3L63HH2ps6PkxjgGQZeXudCTfv8 aU5xk5+/hx1ZLpLjVQI/fbR/fMurll6m5npTi7h8swKPQ9/0qGBtrJlbZ2/zYV6lhSuttIqqsgxd jEbpscpoaz0tFkAB+hsa6FH0a1HAIbredWLZ0+T3Jz4P6fPbGBwe5rtfOKcENIDXr09vY3BknP5x C7lEGB0MMDu+jcGqQlAx/LJohScV3bk2BksSssWvMZtsY/aBMi5vT8OTbiV2NZnZ+ieRMVh2UnCi iFSLsPbtxyjbukq3FiO5VCY6mnjyrIk23y8CZhfsXEky8Yku3PuLKT28C6ddMLmWWv/en8R/8F/T HxT339TSLm6nAAAAAElFTkSuQmCC "
        height="14.933334"
        width="14"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <text
@@ -9279,7 +9336,7 @@
        y="1975.0459"
        id="text5487-3-6-9-8-8-3-93-2-9"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751"><tspan
          sodipodi:role="line"
@@ -9310,7 +9367,10 @@
        d="m 1691.6401,1947.2055 195.6979,0 0,6.5643 7.6877,6.5643 -7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.6979,0 z"
        id="rect4582-1-5-8-6"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="1984.2081"
@@ -9319,7 +9379,7 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABHNCSVQICAgIfAhkiAAAAnhJREFU SIntl01IVFEYhp87NydrMn9KBh2yJJOphsLCfkDDhQhZqxRrEYFIWYsIalWLCooWZQWtJDAIW0a1 0KiFClGRlCk1WGHqmA5qqfkz4+gd5962Xr0z9yjXXNS7PPc937P4vvOecyVN0zSWQbblgC4reMVi N0YmB/F19jE8JZPg3ETWhiTipCUEa6FuGh5WU9vYTWjWurQ+h5KTlRzJSREqKi1kuLSAl9or16jr jbbFwe5TNzhfmEacSS3xHmsTtD24EwMKEKTl/l2e+2dMywmD1ZFmHr8OCDh91NV1Mm0VeLqvlR5B 79i3r4xELAKrSoiwqFmZRFEtAscluUgSNSenk2gy2sJge0YeuUJkG+4CD2tNzrT4VK/cQkn5Phxm vo0llOetMy0sBNbC4/R3dRHcVsnVilwSo/jkzENcvFTMGn8HPUMhYrU5doBoQTrqq7n3qJlBFZBd HCg/w1H3KG9eNPH+yw9GpmUSnJvZmVdEoTtAY001T70TADiyD3L63HH2ps6PkxjgGQZeXudCTfv8 aU5xk5+/hx1ZLpLjVQI/fbR/fMurll6m5npTi7h8swKPQ9/0qGBtrJlbZ2/zYV6lhSuttIqqsgxd jEbpscpoaz0tFkAB+hsa6FH0a1HAIbredWLZ0+T3Jz4P6fPbGBwe5rtfOKcENIDXr09vY3BknP5x C7lEGB0MMDu+jcGqQlAx/LJohScV3bk2BksSssWvMZtsY/aBMi5vT8OTbiV2NZnZ+ieRMVh2UnCi iFSLsPbtxyjbukq3FiO5VCY6mnjyrIk23y8CZhfsXEky8Yku3PuLKT28C6ddMLmWWv/en8R/8F/T HxT339TSLm6nAAAAAElFTkSuQmCC "
        height="14.933334"
        width="14"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <text
@@ -9329,7 +9389,7 @@
        y="1975.4562"
        id="text5487-3-6-9-8-8-3-7-3-1-1"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751"><tspan
          sodipodi:role="line"
@@ -9360,13 +9420,19 @@
        d="m 2125.8016,1947.6158 -195.6978,0 0,6.5643 -7.6877,6.5643 7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 195.6978,0 z"
        id="rect4582-1-2-7-2-6"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <path
        style="fill:none;stroke:#808080;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;display:inline"
        d="m 1691.9989,1769.3542 195.6979,0 0,6.5643 7.6877,6.5643 -7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.6979,0 z"
        id="rect4582-1-5-2"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="2044.5173"
@@ -9375,7 +9441,7 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABHNCSVQICAgIfAhkiAAAAnhJREFU SIntl01IVFEYhp87NydrMn9KBh2yJJOphsLCfkDDhQhZqxRrEYFIWYsIalWLCooWZQWtJDAIW0a1 0KiFClGRlCk1WGHqmA5qqfkz4+gd5962Xr0z9yjXXNS7PPc937P4vvOecyVN0zSWQbblgC4reMVi N0YmB/F19jE8JZPg3ETWhiTipCUEa6FuGh5WU9vYTWjWurQ+h5KTlRzJSREqKi1kuLSAl9or16jr jbbFwe5TNzhfmEacSS3xHmsTtD24EwMKEKTl/l2e+2dMywmD1ZFmHr8OCDh91NV1Mm0VeLqvlR5B 79i3r4xELAKrSoiwqFmZRFEtAscluUgSNSenk2gy2sJge0YeuUJkG+4CD2tNzrT4VK/cQkn5Phxm vo0llOetMy0sBNbC4/R3dRHcVsnVilwSo/jkzENcvFTMGn8HPUMhYrU5doBoQTrqq7n3qJlBFZBd HCg/w1H3KG9eNPH+yw9GpmUSnJvZmVdEoTtAY001T70TADiyD3L63HH2ps6PkxjgGQZeXudCTfv8 aU5xk5+/hx1ZLpLjVQI/fbR/fMurll6m5npTi7h8swKPQ9/0qGBtrJlbZ2/zYV6lhSuttIqqsgxd jEbpscpoaz0tFkAB+hsa6FH0a1HAIbredWLZ0+T3Jz4P6fPbGBwe5rtfOKcENIDXr09vY3BknP5x C7lEGB0MMDu+jcGqQlAx/LJohScV3bk2BksSssWvMZtsY/aBMi5vT8OTbiV2NZnZ+ieRMVh2UnCi iFSLsPbtxyjbukq3FiO5VCY6mnjyrIk23y8CZhfsXEky8Yku3PuLKT28C6ddMLmWWv/en8R/8F/T HxT339TSLm6nAAAAAElFTkSuQmCC "
        height="14.933334"
        width="14"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <text
@@ -9385,7 +9451,7 @@
        y="2035.7654"
        id="text5487-3-6-9-8-8-3-93-2-9-0"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751"><tspan
          sodipodi:role="line"
@@ -9416,7 +9482,10 @@
        d="m 1691.6393,2007.9249 195.6979,0 0,6.5643 7.6877,6.5643 -7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.6979,0 z"
        id="rect4582-1-5-8-6-8"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="2044.9276"
@@ -9425,7 +9494,7 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABHNCSVQICAgIfAhkiAAAAnhJREFU SIntl01IVFEYhp87NydrMn9KBh2yJJOphsLCfkDDhQhZqxRrEYFIWYsIalWLCooWZQWtJDAIW0a1 0KiFClGRlCk1WGHqmA5qqfkz4+gd5962Xr0z9yjXXNS7PPc937P4vvOecyVN0zSWQbblgC4reMVi N0YmB/F19jE8JZPg3ETWhiTipCUEa6FuGh5WU9vYTWjWurQ+h5KTlRzJSREqKi1kuLSAl9or16jr jbbFwe5TNzhfmEacSS3xHmsTtD24EwMKEKTl/l2e+2dMywmD1ZFmHr8OCDh91NV1Mm0VeLqvlR5B 79i3r4xELAKrSoiwqFmZRFEtAscluUgSNSenk2gy2sJge0YeuUJkG+4CD2tNzrT4VK/cQkn5Phxm vo0llOetMy0sBNbC4/R3dRHcVsnVilwSo/jkzENcvFTMGn8HPUMhYrU5doBoQTrqq7n3qJlBFZBd HCg/w1H3KG9eNPH+yw9GpmUSnJvZmVdEoTtAY001T70TADiyD3L63HH2ps6PkxjgGQZeXudCTfv8 aU5xk5+/hx1ZLpLjVQI/fbR/fMurll6m5npTi7h8swKPQ9/0qGBtrJlbZ2/zYV6lhSuttIqqsgxd jEbpscpoaz0tFkAB+hsa6FH0a1HAIbredWLZ0+T3Jz4P6fPbGBwe5rtfOKcENIDXr09vY3BknP5x C7lEGB0MMDu+jcGqQlAx/LJohScV3bk2BksSssWvMZtsY/aBMi5vT8OTbiV2NZnZ+ieRMVh2UnCi iFSLsPbtxyjbukq3FiO5VCY6mnjyrIk23y8CZhfsXEky8Yku3PuLKT28C6ddMLmWWv/en8R/8F/T HxT339TSLm6nAAAAAElFTkSuQmCC "
        height="14.933334"
        width="14"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <text
@@ -9435,7 +9504,7 @@
        y="2036.1757"
        id="text5487-3-6-9-8-8-3-7-3-1-1-9"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751"><tspan
          sodipodi:role="line"
@@ -9466,7 +9535,10 @@
        d="m 2125.8008,2008.3352 -195.6978,0 0,6.5643 -7.6877,6.5643 7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 195.6978,0 z"
        id="rect4582-1-2-7-2-6-2"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="2104.0063"
@@ -9475,7 +9547,7 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABHNCSVQICAgIfAhkiAAAAnhJREFU SIntl01IVFEYhp87NydrMn9KBh2yJJOphsLCfkDDhQhZqxRrEYFIWYsIalWLCooWZQWtJDAIW0a1 0KiFClGRlCk1WGHqmA5qqfkz4+gd5962Xr0z9yjXXNS7PPc937P4vvOecyVN0zSWQbblgC4reMVi N0YmB/F19jE8JZPg3ETWhiTipCUEa6FuGh5WU9vYTWjWurQ+h5KTlRzJSREqKi1kuLSAl9or16jr jbbFwe5TNzhfmEacSS3xHmsTtD24EwMKEKTl/l2e+2dMywmD1ZFmHr8OCDh91NV1Mm0VeLqvlR5B 79i3r4xELAKrSoiwqFmZRFEtAscluUgSNSenk2gy2sJge0YeuUJkG+4CD2tNzrT4VK/cQkn5Phxm vo0llOetMy0sBNbC4/R3dRHcVsnVilwSo/jkzENcvFTMGn8HPUMhYrU5doBoQTrqq7n3qJlBFZBd HCg/w1H3KG9eNPH+yw9GpmUSnJvZmVdEoTtAY001T70TADiyD3L63HH2ps6PkxjgGQZeXudCTfv8 aU5xk5+/hx1ZLpLjVQI/fbR/fMurll6m5npTi7h8swKPQ9/0qGBtrJlbZ2/zYV6lhSuttIqqsgxd jEbpscpoaz0tFkAB+hsa6FH0a1HAIbredWLZ0+T3Jz4P6fPbGBwe5rtfOKcENIDXr09vY3BknP5x C7lEGB0MMDu+jcGqQlAx/LJohScV3bk2BksSssWvMZtsY/aBMi5vT8OTbiV2NZnZ+ieRMVh2UnCi iFSLsPbtxyjbukq3FiO5VCY6mnjyrIk23y8CZhfsXEky8Yku3PuLKT28C6ddMLmWWv/en8R/8F/T HxT339TSLm6nAAAAAElFTkSuQmCC "
        height="14.933334"
        width="14"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <text
@@ -9485,7 +9557,7 @@
        y="2095.2544"
        id="text5487-3-6-9-8-8-3-93-2-9-0-7"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751"><tspan
          sodipodi:role="line"
@@ -9516,7 +9588,10 @@
        d="m 1691.6385,2067.4138 195.6979,0 0,6.5643 7.6877,6.5643 -7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.6979,0 z"
        id="rect4582-1-5-8-6-8-7"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="2104.4165"
@@ -9525,7 +9600,7 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABHNCSVQICAgIfAhkiAAAAnhJREFU SIntl01IVFEYhp87NydrMn9KBh2yJJOphsLCfkDDhQhZqxRrEYFIWYsIalWLCooWZQWtJDAIW0a1 0KiFClGRlCk1WGHqmA5qqfkz4+gd5962Xr0z9yjXXNS7PPc937P4vvOecyVN0zSWQbblgC4reMVi N0YmB/F19jE8JZPg3ETWhiTipCUEa6FuGh5WU9vYTWjWurQ+h5KTlRzJSREqKi1kuLSAl9or16jr jbbFwe5TNzhfmEacSS3xHmsTtD24EwMKEKTl/l2e+2dMywmD1ZFmHr8OCDh91NV1Mm0VeLqvlR5B 79i3r4xELAKrSoiwqFmZRFEtAscluUgSNSenk2gy2sJge0YeuUJkG+4CD2tNzrT4VK/cQkn5Phxm vo0llOetMy0sBNbC4/R3dRHcVsnVilwSo/jkzENcvFTMGn8HPUMhYrU5doBoQTrqq7n3qJlBFZBd HCg/w1H3KG9eNPH+yw9GpmUSnJvZmVdEoTtAY001T70TADiyD3L63HH2ps6PkxjgGQZeXudCTfv8 aU5xk5+/hx1ZLpLjVQI/fbR/fMurll6m5npTi7h8swKPQ9/0qGBtrJlbZ2/zYV6lhSuttIqqsgxd jEbpscpoaz0tFkAB+hsa6FH0a1HAIbredWLZ0+T3Jz4P6fPbGBwe5rtfOKcENIDXr09vY3BknP5x C7lEGB0MMDu+jcGqQlAx/LJohScV3bk2BksSssWvMZtsY/aBMi5vT8OTbiV2NZnZ+ieRMVh2UnCi iFSLsPbtxyjbukq3FiO5VCY6mnjyrIk23y8CZhfsXEky8Yku3PuLKT28C6ddMLmWWv/en8R/8F/T HxT339TSLm6nAAAAAElFTkSuQmCC "
        height="14.933334"
        width="14"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <text
@@ -9535,7 +9610,7 @@
        y="2095.6646"
        id="text5487-3-6-9-8-8-3-7-3-1-1-9-4"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751"><tspan
          sodipodi:role="line"
@@ -9566,7 +9641,10 @@
        d="m 2125.8,2067.8241 -195.6978,0 0,6.5643 -7.6877,6.5643 7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 195.6978,0 z"
        id="rect4582-1-2-7-2-6-2-9"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="2163.9058"
@@ -9575,7 +9653,7 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABHNCSVQICAgIfAhkiAAAAnhJREFU SIntl01IVFEYhp87NydrMn9KBh2yJJOphsLCfkDDhQhZqxRrEYFIWYsIalWLCooWZQWtJDAIW0a1 0KiFClGRlCk1WGHqmA5qqfkz4+gd5962Xr0z9yjXXNS7PPc937P4vvOecyVN0zSWQbblgC4reMVi N0YmB/F19jE8JZPg3ETWhiTipCUEa6FuGh5WU9vYTWjWurQ+h5KTlRzJSREqKi1kuLSAl9or16jr jbbFwe5TNzhfmEacSS3xHmsTtD24EwMKEKTl/l2e+2dMywmD1ZFmHr8OCDh91NV1Mm0VeLqvlR5B 79i3r4xELAKrSoiwqFmZRFEtAscluUgSNSenk2gy2sJge0YeuUJkG+4CD2tNzrT4VK/cQkn5Phxm vo0llOetMy0sBNbC4/R3dRHcVsnVilwSo/jkzENcvFTMGn8HPUMhYrU5doBoQTrqq7n3qJlBFZBd HCg/w1H3KG9eNPH+yw9GpmUSnJvZmVdEoTtAY001T70TADiyD3L63HH2ps6PkxjgGQZeXudCTfv8 aU5xk5+/hx1ZLpLjVQI/fbR/fMurll6m5npTi7h8swKPQ9/0qGBtrJlbZ2/zYV6lhSuttIqqsgxd jEbpscpoaz0tFkAB+hsa6FH0a1HAIbredWLZ0+T3Jz4P6fPbGBwe5rtfOKcENIDXr09vY3BknP5x C7lEGB0MMDu+jcGqQlAx/LJohScV3bk2BksSssWvMZtsY/aBMi5vT8OTbiV2NZnZ+ieRMVh2UnCi iFSLsPbtxyjbukq3FiO5VCY6mnjyrIk23y8CZhfsXEky8Yku3PuLKT28C6ddMLmWWv/en8R/8F/T HxT339TSLm6nAAAAAElFTkSuQmCC "
        height="14.933334"
        width="14"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <text
@@ -9585,7 +9663,7 @@
        y="2155.1538"
        id="text5487-3-6-9-8-8-3-93-2-9-0-7-3"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751"><tspan
          sodipodi:role="line"
@@ -9616,7 +9694,10 @@
        d="m 1691.6377,2127.3129 195.6979,0 0,6.5643 7.6877,6.5643 -7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.6979,0 z"
        id="rect4582-1-5-8-6-8-7-5"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="2164.3159"
@@ -9625,7 +9706,7 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABHNCSVQICAgIfAhkiAAAAnhJREFU SIntl01IVFEYhp87NydrMn9KBh2yJJOphsLCfkDDhQhZqxRrEYFIWYsIalWLCooWZQWtJDAIW0a1 0KiFClGRlCk1WGHqmA5qqfkz4+gd5962Xr0z9yjXXNS7PPc937P4vvOecyVN0zSWQbblgC4reMVi N0YmB/F19jE8JZPg3ETWhiTipCUEa6FuGh5WU9vYTWjWurQ+h5KTlRzJSREqKi1kuLSAl9or16jr jbbFwe5TNzhfmEacSS3xHmsTtD24EwMKEKTl/l2e+2dMywmD1ZFmHr8OCDh91NV1Mm0VeLqvlR5B 79i3r4xELAKrSoiwqFmZRFEtAscluUgSNSenk2gy2sJge0YeuUJkG+4CD2tNzrT4VK/cQkn5Phxm vo0llOetMy0sBNbC4/R3dRHcVsnVilwSo/jkzENcvFTMGn8HPUMhYrU5doBoQTrqq7n3qJlBFZBd HCg/w1H3KG9eNPH+yw9GpmUSnJvZmVdEoTtAY001T70TADiyD3L63HH2ps6PkxjgGQZeXudCTfv8 aU5xk5+/hx1ZLpLjVQI/fbR/fMurll6m5npTi7h8swKPQ9/0qGBtrJlbZ2/zYV6lhSuttIqqsgxd jEbpscpoaz0tFkAB+hsa6FH0a1HAIbredWLZ0+T3Jz4P6fPbGBwe5rtfOKcENIDXr09vY3BknP5x C7lEGB0MMDu+jcGqQlAx/LJohScV3bk2BksSssWvMZtsY/aBMi5vT8OTbiV2NZnZ+ieRMVh2UnCi iFSLsPbtxyjbukq3FiO5VCY6mnjyrIk23y8CZhfsXEky8Yku3PuLKT28C6ddMLmWWv/en8R/8F/T HxT339TSLm6nAAAAAElFTkSuQmCC "
        height="14.933334"
        width="14"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <text
@@ -9635,7 +9716,7 @@
        y="2155.564"
        id="text5487-3-6-9-8-8-3-7-3-1-1-9-4-6"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751"><tspan
          sodipodi:role="line"
@@ -9666,13 +9747,19 @@
        d="m 2125.7992,2127.7232 -195.6978,0 0,6.5643 -7.6877,6.5643 7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 195.6978,0 z"
        id="rect4582-1-2-7-2-6-2-9-8"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <path
        style="fill:none;stroke:#808080;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;display:inline"
        d="m 1691.5886,2186.1865 195.6979,0 0,6.5643 7.6877,6.5643 -7.6877,6.5643 0,6.5643 0,13.1286 0,4.1026 -195.5465,0 z"
        id="rect4582-1-5-8-6-8-7-5-5"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="2277.7627"
@@ -9681,7 +9768,7 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABHNCSVQICAgIfAhkiAAAAnhJREFU SIntl01IVFEYhp87NydrMn9KBh2yJJOphsLCfkDDhQhZqxRrEYFIWYsIalWLCooWZQWtJDAIW0a1 0KiFClGRlCk1WGHqmA5qqfkz4+gd5962Xr0z9yjXXNS7PPc937P4vvOecyVN0zSWQbblgC4reMVi N0YmB/F19jE8JZPg3ETWhiTipCUEa6FuGh5WU9vYTWjWurQ+h5KTlRzJSREqKi1kuLSAl9or16jr jbbFwe5TNzhfmEacSS3xHmsTtD24EwMKEKTl/l2e+2dMywmD1ZFmHr8OCDh91NV1Mm0VeLqvlR5B 79i3r4xELAKrSoiwqFmZRFEtAscluUgSNSenk2gy2sJge0YeuUJkG+4CD2tNzrT4VK/cQkn5Phxm vo0llOetMy0sBNbC4/R3dRHcVsnVilwSo/jkzENcvFTMGn8HPUMhYrU5doBoQTrqq7n3qJlBFZBd HCg/w1H3KG9eNPH+yw9GpmUSnJvZmVdEoTtAY001T70TADiyD3L63HH2ps6PkxjgGQZeXudCTfv8 aU5xk5+/hx1ZLpLjVQI/fbR/fMurll6m5npTi7h8swKPQ9/0qGBtrJlbZ2/zYV6lhSuttIqqsgxd jEbpscpoaz0tFkAB+hsa6FH0a1HAIbredWLZ0+T3Jz4P6fPbGBwe5rtfOKcENIDXr09vY3BknP5x C7lEGB0MMDu+jcGqQlAx/LJohScV3bk2BksSssWvMZtsY/aBMi5vT8OTbiV2NZnZ+ieRMVh2UnCi iFSLsPbtxyjbukq3FiO5VCY6mnjyrIk23y8CZhfsXEky8Yku3PuLKT28C6ddMLmWWv/en8R/8F/T HxT339TSLm6nAAAAAElFTkSuQmCC "
        height="14.933334"
        width="14"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <text
@@ -9691,7 +9778,7 @@
        y="2269.0107"
        id="text5487-3-6-9-8-8-3-93-2-9-0-7-3-4"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751"><tspan
          sodipodi:role="line"
@@ -9722,19 +9809,28 @@
        d="m 1691.7256,2241.1696 195.6979,0 0,6.5643 7.6877,6.5643 -7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.6979,0 z"
        id="rect4582-1-5-8-6-8-7-5-6"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <path
        style="fill:none;stroke:#808080;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;display:inline"
        d="m 1691.7257,2303.4132 195.6979,0 0,6.5643 7.6877,6.5643 -7.6877,6.5643 0,6.5643 0,13.1286 0,4.1026 -195.5465,0 z"
        id="rect4582-1-5-8-6-8-7-5-5-3"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa6.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <path
        style="fill:none;stroke:#808080;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;display:inline"
        d="m 582.27651,942.17214 195.6979,0 0,6.5643 7.6877,6.5643 -7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.6979,0 z"
        id="rect4582-1-5-9"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa3.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="1189.1748"
@@ -9743,7 +9839,7 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABHNCSVQICAgIfAhkiAAAAnhJREFU SIntl01IVFEYhp87NydrMn9KBh2yJJOphsLCfkDDhQhZqxRrEYFIWYsIalWLCooWZQWtJDAIW0a1 0KiFClGRlCk1WGHqmA5qqfkz4+gd5962Xr0z9yjXXNS7PPc937P4vvOecyVN0zSWQbblgC4reMVi N0YmB/F19jE8JZPg3ETWhiTipCUEa6FuGh5WU9vYTWjWurQ+h5KTlRzJSREqKi1kuLSAl9or16jr jbbFwe5TNzhfmEacSS3xHmsTtD24EwMKEKTl/l2e+2dMywmD1ZFmHr8OCDh91NV1Mm0VeLqvlR5B 79i3r4xELAKrSoiwqFmZRFEtAscluUgSNSenk2gy2sJge0YeuUJkG+4CD2tNzrT4VK/cQkn5Phxm vo0llOetMy0sBNbC4/R3dRHcVsnVilwSo/jkzENcvFTMGn8HPUMhYrU5doBoQTrqq7n3qJlBFZBd HCg/w1H3KG9eNPH+yw9GpmUSnJvZmVdEoTtAY001T70TADiyD3L63HH2ps6PkxjgGQZeXudCTfv8 aU5xk5+/hx1ZLpLjVQI/fbR/fMurll6m5npTi7h8swKPQ9/0qGBtrJlbZ2/zYV6lhSuttIqqsgxd jEbpscpoaz0tFkAB+hsa6FH0a1HAIbredWLZ0+T3Jz4P6fPbGBwe5rtfOKcENIDXr09vY3BknP5x C7lEGB0MMDu+jcGqQlAx/LJohScV3bk2BksSssWvMZtsY/aBMi5vT8OTbiV2NZnZ+ieRMVh2UnCi iFSLsPbtxyjbukq3FiO5VCY6mnjyrIk23y8CZhfsXEky8Yku3PuLKT28C6ddMLmWWv/en8R/8F/T HxT339TSLm6nAAAAAElFTkSuQmCC "
        height="14.933334"
        width="14"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa3.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <text
@@ -9753,7 +9849,7 @@
        y="1180.4229"
        id="text5487-3-6-9-8-8-3-7-3-9"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa3.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751"><tspan
          sodipodi:role="line"
@@ -9784,7 +9880,10 @@
        d="m 1015.6174,1152.5824 -195.69773,0 0,6.5643 -7.6877,6.5643 7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 195.69773,0 z"
        id="rect4582-1-2-7-0"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa3.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="1049.1556"
@@ -9793,7 +9892,7 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABHNCSVQICAgIfAhkiAAAAnhJREFU SIntl01IVFEYhp87NydrMn9KBh2yJJOphsLCfkDDhQhZqxRrEYFIWYsIalWLCooWZQWtJDAIW0a1 0KiFClGRlCk1WGHqmA5qqfkz4+gd5962Xr0z9yjXXNS7PPc937P4vvOecyVN0zSWQbblgC4reMVi N0YmB/F19jE8JZPg3ETWhiTipCUEa6FuGh5WU9vYTWjWurQ+h5KTlRzJSREqKi1kuLSAl9or16jr jbbFwe5TNzhfmEacSS3xHmsTtD24EwMKEKTl/l2e+2dMywmD1ZFmHr8OCDh91NV1Mm0VeLqvlR5B 79i3r4xELAKrSoiwqFmZRFEtAscluUgSNSenk2gy2sJge0YeuUJkG+4CD2tNzrT4VK/cQkn5Phxm vo0llOetMy0sBNbC4/R3dRHcVsnVilwSo/jkzENcvFTMGn8HPUMhYrU5doBoQTrqq7n3qJlBFZBd HCg/w1H3KG9eNPH+yw9GpmUSnJvZmVdEoTtAY001T70TADiyD3L63HH2ps6PkxjgGQZeXudCTfv8 aU5xk5+/hx1ZLpLjVQI/fbR/fMurll6m5npTi7h8swKPQ9/0qGBtrJlbZ2/zYV6lhSuttIqqsgxd jEbpscpoaz0tFkAB+hsa6FH0a1HAIbredWLZ0+T3Jz4P6fPbGBwe5rtfOKcENIDXr09vY3BknP5x C7lEGB0MMDu+jcGqQlAx/LJohScV3bk2BksSssWvMZtsY/aBMi5vT8OTbiV2NZnZ+ieRMVh2UnCi iFSLsPbtxyjbukq3FiO5VCY6mnjyrIk23y8CZhfsXEky8Yku3PuLKT28C6ddMLmWWv/en8R/8F/T HxT339TSLm6nAAAAAElFTkSuQmCC "
        height="14.933334"
        width="14"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa3.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <text
@@ -9803,7 +9902,7 @@
        y="1040.4037"
        id="text5487-3-6-9-8-8-3-93-1-2"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa3.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751"><tspan
          sodipodi:role="line"
@@ -9834,7 +9933,10 @@
        d="m 582.22394,1012.5633 195.6979,0 0,6.5643 7.6877,6.5643 -7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.6979,0 z"
        id="rect4582-1-5-9-6"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa3.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="1119.5682"
@@ -9843,7 +9945,7 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABHNCSVQICAgIfAhkiAAAAnhJREFU SIntl01IVFEYhp87NydrMn9KBh2yJJOphsLCfkDDhQhZqxRrEYFIWYsIalWLCooWZQWtJDAIW0a1 0KiFClGRlCk1WGHqmA5qqfkz4+gd5962Xr0z9yjXXNS7PPc937P4vvOecyVN0zSWQbblgC4reMVi N0YmB/F19jE8JZPg3ETWhiTipCUEa6FuGh5WU9vYTWjWurQ+h5KTlRzJSREqKi1kuLSAl9or16jr jbbFwe5TNzhfmEacSS3xHmsTtD24EwMKEKTl/l2e+2dMywmD1ZFmHr8OCDh91NV1Mm0VeLqvlR5B 79i3r4xELAKrSoiwqFmZRFEtAscluUgSNSenk2gy2sJge0YeuUJkG+4CD2tNzrT4VK/cQkn5Phxm vo0llOetMy0sBNbC4/R3dRHcVsnVilwSo/jkzENcvFTMGn8HPUMhYrU5doBoQTrqq7n3qJlBFZBd HCg/w1H3KG9eNPH+yw9GpmUSnJvZmVdEoTtAY001T70TADiyD3L63HH2ps6PkxjgGQZeXudCTfv8 aU5xk5+/hx1ZLpLjVQI/fbR/fMurll6m5npTi7h8swKPQ9/0qGBtrJlbZ2/zYV6lhSuttIqqsgxd jEbpscpoaz0tFkAB+hsa6FH0a1HAIbredWLZ0+T3Jz4P6fPbGBwe5rtfOKcENIDXr09vY3BknP5x C7lEGB0MMDu+jcGqQlAx/LJohScV3bk2BksSssWvMZtsY/aBMi5vT8OTbiV2NZnZ+ieRMVh2UnCi iFSLsPbtxyjbukq3FiO5VCY6mnjyrIk23y8CZhfsXEky8Yku3PuLKT28C6ddMLmWWv/en8R/8F/T HxT339TSLm6nAAAAAElFTkSuQmCC "
        height="14.933334"
        width="14"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa3.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <text
@@ -9853,7 +9955,7 @@
        y="1110.8163"
        id="text5487-3-6-9-8-8-3-93-1-2-4"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa3.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751"><tspan
          sodipodi:role="line"
@@ -9884,7 +9986,10 @@
        d="m 582.22394,1082.9759 195.6979,0 0,6.5643 7.6877,6.5643 -7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.6979,0 z"
        id="rect4582-1-5-9-6-7"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa3.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <image
        style="display:inline"
        y="1188.7991"
@@ -9893,7 +9998,7 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABHNCSVQICAgIfAhkiAAAAnhJREFU SIntl01IVFEYhp87NydrMn9KBh2yJJOphsLCfkDDhQhZqxRrEYFIWYsIalWLCooWZQWtJDAIW0a1 0KiFClGRlCk1WGHqmA5qqfkz4+gd5962Xr0z9yjXXNS7PPc937P4vvOecyVN0zSWQbblgC4reMVi N0YmB/F19jE8JZPg3ETWhiTipCUEa6FuGh5WU9vYTWjWurQ+h5KTlRzJSREqKi1kuLSAl9or16jr jbbFwe5TNzhfmEacSS3xHmsTtD24EwMKEKTl/l2e+2dMywmD1ZFmHr8OCDh91NV1Mm0VeLqvlR5B 79i3r4xELAKrSoiwqFmZRFEtAscluUgSNSenk2gy2sJge0YeuUJkG+4CD2tNzrT4VK/cQkn5Phxm vo0llOetMy0sBNbC4/R3dRHcVsnVilwSo/jkzENcvFTMGn8HPUMhYrU5doBoQTrqq7n3qJlBFZBd HCg/w1H3KG9eNPH+yw9GpmUSnJvZmVdEoTtAY001T70TADiyD3L63HH2ps6PkxjgGQZeXudCTfv8 aU5xk5+/hx1ZLpLjVQI/fbR/fMurll6m5npTi7h8swKPQ9/0qGBtrJlbZ2/zYV6lhSuttIqqsgxd jEbpscpoaz0tFkAB+hsa6FH0a1HAIbredWLZ0+T3Jz4P6fPbGBwe5rtfOKcENIDXr09vY3BknP5x C7lEGB0MMDu+jcGqQlAx/LJohScV3bk2BksSssWvMZtsY/aBMi5vT8OTbiV2NZnZ+ieRMVh2UnCi iFSLsPbtxyjbukq3FiO5VCY6mnjyrIk23y8CZhfsXEky8Yku3PuLKT28C6ddMLmWWv/en8R/8F/T HxT339TSLm6nAAAAAElFTkSuQmCC "
        height="14.933334"
        width="14"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa3.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751" />
     <text
@@ -9903,7 +10008,7 @@
        y="1180.0471"
        id="text5487-3-6-9-8-8-3-93-1-2-4-3"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa5.png"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa3.png"
        inkscape:export-xdpi="257.38751"
        inkscape:export-ydpi="257.38751"><tspan
          sodipodi:role="line"
@@ -9934,13 +10039,19 @@
        d="m 582.278,1152.2067 195.6979,0 0,6.5643 7.6877,6.5643 -7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.6979,0 z"
        id="rect4582-1-5-9-6-7-5"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa3.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
     <path
        style="fill:none;stroke:#808080;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;display:inline"
        d="m 582.22393,1219.5951 195.6979,0 0,6.5643 7.6877,6.5643 -7.6877,6.5643 0,6.5643 0,13.1286 0,13.1285 -195.6979,0 z"
        id="rect4582-1-5-9-6-7-5-2"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa3.png"
+       inkscape:export-xdpi="257.38751"
+       inkscape:export-ydpi="257.38751" />
   </g>
   <g
      inkscape:label="Segunda"
