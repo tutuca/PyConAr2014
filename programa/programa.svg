@@ -1426,9 +1426,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2187156"
-     inkscape:cx="1227.8175"
-     inkscape:cy="-1324.9481"
+     inkscape:zoom="0.3046789"
+     inkscape:cx="1361.6716"
+     inkscape:cy="-268.50139"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -1451,7 +1451,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2265,7 +2265,7 @@
        inkscape:export-ydpi="256.32928" />
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;display:inline"
-       d="m 526.78407,1.1649528 526.18113,0 0,744.0945172 -526.18113,0 z"
+       d="m 526.78407,0.47262555 525.36063,0 0,743.12447445 -525.36063,0 z"
        id="rect3852-9"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc"
@@ -2275,10 +2275,10 @@
     <rect
        style="fill:#f9f9f9;stroke:none;display:inline"
        id="rect4740-5"
-       width="526.18109"
-       height="744.09448"
-       x="3.8851035"
-       y="1.1650234"
+       width="529.77094"
+       height="743.13513"
+       x="0.29525855"
+       y="0.46518588"
        inkscape:export-filename="/home/fisa/devel/PyConAr2014/programa/programa1.png"
        inkscape:export-xdpi="256.32928"
        inkscape:export-ydpi="256.32928" />
