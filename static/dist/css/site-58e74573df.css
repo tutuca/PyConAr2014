@@ -9566,6 +9566,9 @@ body.schedule h3,
 body.presentation h3 {
   color: #0e76bc;
 }
+table.calendar > tbody > tr > td {
+  vertical-align: middle;
+}
 table.calendar th {
   font-size: 14px;
   background: #e3c501;
