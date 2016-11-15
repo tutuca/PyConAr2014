@@ -24,8 +24,8 @@
                                 </span>
                             {% endif %}
                         {% else %}
-                            {% if slot.content_override.raw %}
-                                {{ slot.content_override.rendered|safe }}
+                            {% if slot.content_override %}
+                                {{ slot.content_override|safe }}
                             {% else %}
                                 {{ slot.kind.label }}
                             {% endif %}
