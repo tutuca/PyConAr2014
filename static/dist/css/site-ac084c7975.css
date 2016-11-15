@@ -9594,7 +9594,8 @@ table.calendar td.slot-libre {
   text-indent: -9999px;
 }
 table.calendar td.slot-almuerzo,
-table.calendar td.slot-coffee-break {
+table.calendar td.slot-coffee-break,
+table.calendar td.slot-Merienda {
   background-color: #69D2E7;
 }
 table.calendar td.slot-acreditaciones {
