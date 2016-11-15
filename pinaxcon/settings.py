@@ -184,7 +184,10 @@ MARKDOWNIFY_WHITELIST_TAGS = [
     'ol',
     'p',
     'strong',
-    'ul'
+    'ul',
+    'h1',
+    'h2',
+    'h3'
 ]
 
 # A sample logging configuration. The only tangible logging
