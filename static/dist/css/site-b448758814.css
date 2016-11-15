@@ -9591,6 +9591,7 @@ table.calendar td.time {
 }
 table.calendar td.slot-libre {
   background-color: #E0E4CC;
+  text-indent: -9999px;
 }
 table.calendar td.slot-almuerzo,
 table.calendar td.slot-coffee-break {
