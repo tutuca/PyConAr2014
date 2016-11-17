@@ -97,7 +97,6 @@ def schedule_json(request):
 
             }
             if hasattr(slot.content, "proposal"):
-                import pdb;pdb.set_trace()
                 slot_data.update({
                     "name": slot.content.title,
                     "audience_level": AUDIENCE_LEVEL[slot.content.proposal.audience_level],
