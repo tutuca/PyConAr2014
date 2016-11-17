@@ -169,6 +169,25 @@ INSTALLED_APPS = [
     #extra
     "django_extensions",
     "captcha",
+    "markdownify",
+]
+
+MARKDOWNIFY_WHITELIST_TAGS = [
+    'a',
+    'abbr',
+    'acronym',
+    'b',
+    'blockquote',
+    'em',
+    'i',
+    'li',
+    'ol',
+    'p',
+    'strong',
+    'ul',
+    'h1',
+    'h2',
+    'h3'
 ]
 
 # A sample logging configuration. The only tangible logging
@@ -204,7 +223,6 @@ FIXTURE_DIRS = [
     os.path.join(PROJECT_ROOT, "fixtures"),
 ]
 
-EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 #EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 
