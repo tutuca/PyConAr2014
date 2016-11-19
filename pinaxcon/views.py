@@ -10,8 +10,31 @@ from django.http import Http404, HttpResponse
 from django.shortcuts import redirect, render
 from django.template import Context, loader
 from symposion.schedule.models import Slot, Day
+from symposion.speakers.models import Speaker
 
 from .forms import BecasForm
+
+MAP = [
+
+    {
+        "name": "Club de emprendedores de Bahía Blanca (Viernes 25)",
+        "lat": -38.7196638,
+        "lng": -62.269189,
+        "center": True
+    },
+    {
+        "name": "Salón de los Fundadores de la UNS (Viernes 25)",
+        "lat": -38.7196938,
+        "lng": -62.2699801
+    },
+    {
+        "name": "Complejo Palihue - UNS (Sábado 26 y Domingo 27)",
+        "lat": -38.6954712,
+        "lng": -62.2564776
+    }
+
+]
+
 
 def becas(request):
     form_class = BecasForm
@@ -69,42 +92,22 @@ def schedule_json(request):
 
     protocol = request.META.get('HTTP_X_FORWARDED_PROTO', 'http')
 
-    full_data = {}
 
-    def create_day(slots, day):
+    def create_session_slots(hour_slots):
         data = []
-
-        for slot in slots.filter(day=day):
+        for slot in hour_slots:
             slot_data = {
-                "room": ", ".join(room["name"] for room in slot.rooms.values()),
-                "rooms": [room["name"] for room in slot.rooms.values()],
-                "day": day.date.strftime('%Y-%m-%d'),
-                "start": slot.start_datetime.isoformat(),
-                "end": slot.end_datetime.isoformat(),
-                "duration": slot.length_in_minutes,
+                "location": ", ".join(room["name"] for room in slot.rooms.values()),
+                "timeStart": slot.start_datetime.strftime("%-I:%M %p"),
+                "timeEnd": slot.end_datetime.strftime("%-I:%M %p"),
                 "kind": slot.kind.label,
-                "section": slot.day.schedule.section.slug,
-                "conf_key": slot.pk,
-                # TODO: models should be changed.
-                # these are model features from other conferences that have forked symposion
-                # these have been used almost everywhere and are good candidates for
-                # base proposals
-                #"license": "CC BY",
                 "tags": "",
-                #"released": True,
-                "contact": [],
-
-
             }
             if hasattr(slot.content, "proposal"):
                 slot_data.update({
                     "name": slot.content.title,
                     "audience_level": AUDIENCE_LEVEL[slot.content.proposal.audience_level],
-                    "authors": [s.name for s in slot.content.speakers()],
-                    "contact": [
-                        s.email for s in slot.content.speakers()
-                    ] if request.user.is_staff else ["redacted"],
-                    "abstract": slot.content.abstract,
+                    "speakerNames": [s.name for s in slot.content.speakers()],
                     "description": slot.content.description,
                     "conf_url": "%s://%s%s" % (
                         protocol,
@@ -122,12 +125,59 @@ def schedule_json(request):
 
         return data
 
+    schedule = []
     for day in Day.objects.all():
+        schedule_content = {}
         day_key = day.date.strftime('%Y-%m-%d')
-        full_data[day_key] = create_day(slots, day)
+        schedule_content['date'] = day_key
+        schedule_content['groups'] = []
+
+        slots_day = slots.filter(day=day)
+        hours = [k for k  in set([k[0].strftime("%H")
+                                  for k in slots_day.values_list('start')])]
+        hours.sort()
+
+        for hour in hours:
+            group_content = {}
+            h_ini = (datetime.datetime.combine(datetime.date.today(),
+                                               datetime.time(int(hour)))
+                                                )
+
+
+            h_ini_rounded = h_ini.strftime('%H:00')
+
+            h_fin_rounded = ((datetime.datetime.combine(datetime.date.today(),
+                                                datetime.time(int(hour)))
+                                                ) + datetime.timedelta(
+                                                    hours=1)).strftime('%H:00')
+
+            hour_slots = slots_day.filter(start__gte=h_ini_rounded,
+                                          start__lt=h_fin_rounded)
+
+            group_content['time'] = h_ini.strftime("%-I:%M %p")
+            sessions = create_session_slots(hour_slots)
+            group_content['sessions'] = sessions
+            schedule_content['groups'].append(group_content)
+        schedule.append(schedule_content)
+
+    speakers = []
+
+    for speaker in Speaker.objects.filter():
+        speaker_data = {}
+        speaker_data['name'] = speaker.name
+        speaker_data['twitter'] = speaker.twitter_username
+        speaker_photo = '' if not speaker.photo else speaker.photo.url
+        if speaker_photo:
+            speaker_data['profilePic'] = "http://{host}{url}".format(
+                                                        host=request.get_host(),
+                                                        url=speaker.photo.url)
+        else:
+            speaker_data['profilePic'] = ''
+
+        speakers.append(speaker_data)
 
 
     return HttpResponse(
-        json.dumps({"schedule": full_data}),
+        json.dumps({"schedule": schedule, "speakers": speakers, "map": MAP}),
         content_type="application/json"
     )
