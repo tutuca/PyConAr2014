@@ -109,6 +109,7 @@ def schedule_json(request):
                     "audience_level": AUDIENCE_LEVEL[slot.content.proposal.audience_level],
                     "speakerNames": [s.name for s in slot.content.speakers()],
                     "description": slot.content.description,
+                    "idTalk": slot.content.pk,
                     "conf_url": "%s://%s%s" % (
                         protocol,
                         Site.objects.get_current().domain,
