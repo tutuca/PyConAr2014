@@ -36,7 +36,22 @@ class Attendee(models.Model):
     show_to_sponsor = models.BooleanField(verbose_name="Compartir mis datos "
                                           "personales", help_text=("Acepto que mis datos "
         "personales se compartan con los sponsors"))
-
+    is_vegetarian = models.BooleanField(default=False)
+    is_tacc = models.BooleanField(default=False)
+    meal_on_saturday = models.IntegerField(blank=True, null=True)
+    meal_on_sunday = models.IntegerField(blank=True, null=True)
+    tshirt_male_s = models.IntegerField(blank=True, null=True)
+    tshirt_male_m = models.IntegerField(blank=True, null=True)
+    tshirt_male_l = models.IntegerField(blank=True, null=True)
+    tshirt_male_xl = models.IntegerField(blank=True, null=True)
+    tshirt_male_xxl = models.IntegerField(blank=True, null=True)
+    tshirt_male_xxxl = models.IntegerField(blank=True, null=True)
+    tshirt_male_xxxxl = models.IntegerField(blank=True, null=True)
+    tshirt_female_s = models.IntegerField(blank=True, null=True)
+    tshirt_female_m = models.IntegerField(blank=True, null=True)
+    tshirt_female_l = models.IntegerField(blank=True, null=True)
+    tshirt_female_xl = models.IntegerField(blank=True, null=True)
+ 
     class Meta:
         ordering = ['full_name']
         verbose_name = "Asistente"
@@ -47,3 +62,6 @@ class Attendee(models.Model):
             return self.full_name
         else:
             return "?"
+
+
+
