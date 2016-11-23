@@ -51,7 +51,8 @@ class Attendee(models.Model):
     tshirt_female_m = models.IntegerField(blank=True, null=True)
     tshirt_female_l = models.IntegerField(blank=True, null=True)
     tshirt_female_xl = models.IntegerField(blank=True, null=True)
- 
+    is_acredited = models.BooleanField(default=False)
+
     class Meta:
         ordering = ['full_name']
         verbose_name = "Asistente"

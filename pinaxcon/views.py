@@ -13,6 +13,7 @@ from symposion.schedule.models import Slot, Day
 from symposion.speakers.models import Speaker
 
 from .forms import BecasForm
+from .attendees.models import Attendee
 
 MAP = [
 
@@ -182,3 +183,20 @@ def schedule_json(request):
         json.dumps({"schedule": schedule, "speakers": speakers, "map": MAP}),
         content_type="application/json"
     )
+
+
+def process_acreditation(request):
+    if request.method=="POST":
+        id_attendee = request.POST.get('id_attendee')
+        attendee = Attendee.objects.get(id=id_attendee)
+        attendee.is_acredited = True
+        attendee.save()
+    else:
+        id_attendee = request.GET.get('id_attendee')
+        attendee = Attendee.objects.get(id=id_attendee)
+
+
+    return render(request, 'acreditation.html', {
+        'attendee': attendee,
+    })
+
