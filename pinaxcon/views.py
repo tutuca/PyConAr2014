@@ -3,6 +3,7 @@ import datetime
 import json
 
 from django.contrib import messages
+from django.contrib.admin.views.decorators import staff_member_required
 from django.contrib.sites.models import Site
 from django.core.mail import EmailMessage
 from django.core.urlresolvers import reverse
@@ -185,6 +186,7 @@ def schedule_json(request):
     )
 
 
+@staff_member_required
 def process_acreditation(request):
     if request.method=="POST":
         id_attendee = request.POST.get('id_attendee')
