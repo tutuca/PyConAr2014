@@ -1,0 +1,40 @@
+<style>
+body {
+            font-family: Arial;
+            font-size: 20px;
+}
+
+input {
+            font-size: 20px;
+
+}
+
+</style>
+
+<b>Nombre</b>: {{ attendee }}
+<br>
+<b>Email:</b> {{ attendee.user.email }}
+<br> <b>Es vegetariano:</b> {{ attendee.is_vegetarian }}
+<br> <b>Es celíaco:</b> {{ attendee.is_tacc }}
+<br> <b>Comida Sábado:</b> {{ attendee.meal_on_saturday }}
+<br> <b>Comida Domingo:</b> {{ attendee.meal_on_sunday }}
+<hr>
+<br> <b>Rem H S:</b> {{ attendee.tshirt_male_s }}
+<br> <b>Rem H M:</b> {{ attendee.tshirt_male_m }}
+<br> <b>Rem H L:</b> {{ attendee.tshirt_male_l }}
+<br> <b>Rem H XL:</b> {{ attendee.tshirt_male_xl }}
+<br> <b>Rem H XXL:</b> {{ attendee.tshirt_male_xxl }}
+<br> <b>Rem H XXXL:</b> {{ attendee.tshirt_male_xxxl }}
+<br> <b>Rem H XXXXL:</b> {{ attendee.tshirt_male_xxxxl }}
+<br> <b>Rem M S:</b> {{ attendee.tshirt_female_s }}
+<br> <b>Rem M M:</b> {{ attendee.tshirt_female_m }}
+<br> <b>Rem M L:</b> {{ attendee.tshirt_female_l }}
+<br> <b>Rem M XL:</b> {{ attendee.tshirt_female_xl }}
+<hr>
+<br> <b>Se acreditó:</b> {{ attendee.is_acredited }}
+
+<form method="POST">
+    {% csrf_token %}  
+    <input type="hidden" name="id_attendee" value="{{attendee.id}}">
+    <input type="submit" name="acreditado" value="Acreditar">
+</form>
