@@ -16,7 +16,7 @@ from django.core.mail import EmailMultiAlternatives, SafeMIMEMultipart
 
 
 
-def send_email(to_list, subject, message, encoded_image, sender='no-reply@python.org.ar'):
+def send_email(to_list, subject, message, url_image, sender='no-reply@python.org.ar'):
 	msg = EmailMultiAlternatives(subject, message, sender, to_list)
 
 	html = """
@@ -27,12 +27,11 @@ Hola,
 </p>
 <p>Ya faltan pocas horas para la PyconAr 2016. ¡Te estamos esperando!</p>
 
-</p>
 <p> Para agilizar el proceso de acreditación, te pedimos por favor que presentés el siguiente código en la entrada, con el mismo te entregaremos las remera/s y/o vianda/s si las compraste en la tienda.</p>
-		<img src="data:image/png;base64,{}">
+		<img src="{}">
 <p>¡Nos vemos en Bahía!</p>
 <p> El equipo de PyconAr 2016</p>
-</body></html""".format(encoded_image)
+</body></html>""".format(url_image)
 
 	msg.attach_alternative(html, 'text/html')
 	msg.send()
@@ -56,9 +55,9 @@ class Command(BaseCommand):
             img.save(url)
 
         for attendee in attendees:
-            url = "/project/pinaxcon/site_media/media/qr/qr{}.png".format(attendee.id)
-            encoded_image = base64.b64encode(open(url, "rb").read())
-            send_email((attendee.user.email,), 'Importante: Datos de registro PyconAr2016', 'message', encoded_image)
+            url = "http://ar.pycon.org/site_media/media/qr/qr{}.png".format(attendee.id)
+            #encoded_image = base64.b64encode(open(url, "rb").read())
+            send_email((attendee.user.email,), 'Importante(fix-webmail): Datos de registro PyconAr2016', 'message', url)
 
         self.stdout.write(self.style.SUCCESS('Enviados "%s"' % 1))
 
