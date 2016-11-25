@@ -17,11 +17,10 @@ from .forms import BecasForm
 from .attendees.models import Attendee
 
 MAP = [
-
     {
         "name": "Club de emprendedores de Bahía Blanca (Viernes 25)",
         "lat": -38.7196638,
-        "lng": -62.269189,
+        "lng": -62.2691837,
         "center": True
     },
     {
