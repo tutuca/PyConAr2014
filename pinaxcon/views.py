@@ -27,13 +27,13 @@ MAP = [
     },
     {
         "name": "Salón de los Fundadores de la UNS (Viernes 25)",
-        "lat": -38.7196938,
-        "lng": -62.2699801
+        "lat": -38.71971,
+        "lng": -62.26782
     },
     {
         "name": "Complejo Palihue - UNS (Sábado 26 y Domingo 27)",
-        "lat": -38.6954712,
-        "lng": -62.2564776
+        "lat": -38.694053,
+        "lng": -62.249016
     }
 
 ]
