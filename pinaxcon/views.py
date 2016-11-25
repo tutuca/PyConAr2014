@@ -16,11 +16,13 @@ from symposion.speakers.models import Speaker
 from .forms import BecasForm
 from .attendees.models import Attendee
 
+
+
 MAP = [
     {
         "name": "Club de emprendedores de Bahía Blanca (Viernes 25)",
-        "lat": -38.7196638,
-        "lng": -62.2691837,
+        "lat": -38.719668,
+        "lng": -62.266995,
         "center": True
     },
     {
