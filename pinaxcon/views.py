@@ -188,17 +188,29 @@ def schedule_json(request):
 
 @staff_member_required
 def process_acreditation(request):
+
     if request.method=="POST":
         id_attendee = request.POST.get('id_attendee')
         attendee = Attendee.objects.get(id=id_attendee)
         attendee.is_acredited = True
+
+        require_certificate = request.POST.get('require_certificate')
+        wanna_party = request.POST.get('wanna_party')
+
+        attendee.require_certificate = True if require_certificate == 'on' else False
+        attendee.wanna_party = True if wanna_party == 'on' else False
+
         attendee.save()
     else:
         id_attendee = request.GET.get('id_attendee')
         attendee = Attendee.objects.get(id=id_attendee)
 
+    is_speaker = False
+
+    if Speaker.objects.filter(user = attendee.user):
+        is_speaker = True
 
     return render(request, 'acreditation.html', {
         'attendee': attendee,
+        'is_speaker': is_speaker
     })
-

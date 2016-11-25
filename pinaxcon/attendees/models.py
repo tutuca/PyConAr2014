@@ -52,6 +52,9 @@ class Attendee(models.Model):
     tshirt_female_l = models.IntegerField(blank=True, null=True)
     tshirt_female_xl = models.IntegerField(blank=True, null=True)
     is_acredited = models.BooleanField(default=False)
+    amount_to_pay = models.IntegerField(default=0)
+    require_certificate = models.BooleanField(default=False)
+    wanna_party = models.BooleanField(default=False)
 
     class Meta:
         ordering = ['full_name']
@@ -63,6 +66,3 @@ class Attendee(models.Model):
             return self.full_name
         else:
             return "?"
-
-
-
