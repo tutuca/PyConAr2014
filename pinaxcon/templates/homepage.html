@@ -11,10 +11,12 @@
   {% if ACCOUNT_OPEN_SIGNUP %}
   <section class="container-fluid primary block-blue">
     <div class="container">
-      <h2>!Inscripciones abiertas!</h2>
-      <p>Para inscribirte al evento primero necesitas<a href="{% url 'account_signup' %}"> registrate en el sitio</a>, una
-      vez logueado podrás inscribirte al evento <a href="{% url 'dashboard' %}">aquí</a>.</p>
-        <p>Todos los asistentes deberán aceptar y respetar el <a href="/codigo-conducta">código de conducta</a>.</p>
+      <h2>!Gracias!</h2>
+      <p>Desde la organización de la PyconAR 2016 queríamos agradecerles a todos
+      los asistentes, sponsors, colaboradores y oradores por habernos ayudado a
+      construir este evento el cual disfrutamos enormemente. Esperamos que les
+      haya gustado tanto como a nosotros.</p>
+      <p>¡Hasta pronto!</p>
     </div>
   </section>
   {% else %}
@@ -23,25 +25,7 @@
   <section class="container-fluid secondary block-blue">
     <div class="container">
       <div class="row">
-        <div class="col-md-6"><img src="{% static "images/mendoza.jpg" %}" class="img-responsive" /></div>
-        <div class="col-md-6">
-          <h2>SOBRE EL EVENTO</h2>
-          <p>PyconAr es la conferencia anual Argentina de <a href="https://www.python.org/" target="_blank">Python</a>, organizada y llevada a cabo por voluntarios de la comunidad Python Argentina (PyAr), y en esta oportunidad co­organizada por Facttic, la Federación argentina de cooperativas de trabajo de tecnología innovación y conocimiento.</p>
-          <p>De entrada libre y gratuita, se realizará los días 25, 26 y 27 de noviembre de 2016 en la ciudad de Bahía Blanca​, provincia de Buenos Aires.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="container-fluid secondary block-blue">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Becas y transporte</h2>
-          <p>Hemos recibido más de 30 solicitudes de becas este año las cuales
-          estamos evaluando.  ¡Si hiciste tu solicitud estate atent@!</p>
-          <p>También habrá un micro gratuito para los asistentes que irá desde CABA hasta Bahía Blanca organizado y gestionado, como años anteriores, por ONAPSIS a quienes agradecemos el compromiso con este evento.</p>
-        </div>
+        <div class="col-md-12"><img src="{% static "images/foto_final.jpg" %}" class="img-responsive" /></div>
       </div>
     </div>
   </section>
@@ -51,12 +35,12 @@
       <div class="row">
         <div class="col-md-12">
           <h2>Ubicaciones</h2>
-          <p>La conferencia se desarrollará en tres espacios. El día viernes
-          será de sprints y charlas en el Club de emprendedores de Bahía
+          <p>La conferencia se desarrolló en tres espacios. El día viernes
+          sprints, charlas y un taller de <a href="http://dementeslibres.facttic.org.ar/">De mentes Libres</a> en el Club de emprendedores de Bahía
           Blanca en la calle Drago 45 (pleno centro de la ciudad) y el taller de Django Girls en el Salón "Fundadores" de la UNS en la Av. Colón 80,
-          y los días sábado y domingo el evento se realizará en el
+          y los días sábado y domingo el evento en el
           Complejo Palihue perteneciente a la Universidad Nacional del Sur,
-          ubicado en la calle San Andrés al 800, donde habrá espacio para
+          ubicado en la calle San Andrés al 800, hubo
           stands, talleres, múltiples tracks de charlas, espacios de networking y sprints.</p>
         </div>
       </div>
@@ -142,75 +126,18 @@ de la Computación a la escuela argentina.</p>
   <section class="container-fluid secondary block-blue">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <h2>EDICIONES ANTERIORES</h2>
-          <!-- p>La Primera PyconAR se realizó el año 2009 en Buenos Aires. A partir de allí se realizaron todos los años en diferentes lugares como Córdoba (2010), Junin (2011), Quilmes (2012), Rosario (2013), Rafaela (2014) y Mendoza (2015). A través de los años fue aumentando la convocatoria y la comunidad de Pyar fue creciendo. </p>
-	        <p>Los invitados internacionales de ediciones anteriores incluyeron a Jacob Kaplan Moss (Django), Wesley Chun y Collin Winter(Google), Steve Holden (PSF), Maciej Fijalkowski (PyPy), Jim Fulton (Zope) , Alan Runyan (Plone) y Daniel y Audrey RoyGreenfeld. Varios visitantes de la región y de otros continentes han asistido a conferencias previas, siendo este un gran lugar para promocionarse e intercambiar experiencias.</p -->
+        <div class="col-md-12 text-center">
+          <h2>Galería de fotos</h2>
         </div>
       </div>
-
       <div class="row">
+
         <div class="col-md-12">
-          <div id="carousel-anteriores" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-anteriores" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-anteriores" data-slide-to="1"></li>
-              <li data-target="#carousel-anteriores" data-slide-to="2"></li>
-              <li data-target="#carousel-anteriores" data-slide-to="3"></li>
-              <li data-target="#carousel-anteriores" data-slide-to="4"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img alt="PyConAr 2011 Junin" src="/site_media/static/images/slider-anteriores/pycon-junin.jpg">
-                <div class="carousel-caption">
-                  <h3>PyConAr 2011 Junin</h3>
-                </div>
-              </div>
-
-              <div class="item">
-                <img alt="PyConAr 2012 Quilmes" src="/site_media/static/images/slider-anteriores/pycon-quilmes.jpg">
-                <div class="carousel-caption">
-                  <h3>PyConAr 2012 Quilmes</h3>
-                </div>
-              </div>
-
-              <div class="item">
-                <img alt="PyConAr 2013 Rosario" src="/site_media/static/images/slider-anteriores/pycon-rosario.jpg">
-                <div class="carousel-caption">
-                  <h3>PyConAr 2013 Rosario</h3>
-                </div>
-              </div>
-
-              <div class="item">
-                <img alt="PyConAr 2014 Rafaela" src="/site_media/static/images/slider-anteriores/pycon-rafaela.jpg">
-                <div class="carousel-caption">
-                  <h3>PyConAr 2014 Rafaela</h3>
-                </div>
-              </div>
-
-              <div class="item">
-                <img alt="PyConAr 2015 Mendoza" src="/site_media/static/images/slider-anteriores/pycon-mendoza.jpg">
-                <div class="carousel-caption">
-                  <h3>PyConAr 2015 Mendoza</h3>
-                </div>
-              </div>
-            </div>
-
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-anteriores" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Anterior</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-anteriores" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Siguiente</span>
-            </a>
-          </div>
-        </div>
+            <div id="flickrembed"></div><small style="display: block;
+                text-align: center; margin: 0 auto;">Powered by <a
+                    href="https://flickrembed.com">flickr embed</a>.</small>
       </div>
+    </div>
     </div>
   </section>
 
@@ -243,6 +170,7 @@ de la Computación a la escuela argentina.</p>
 {% block scripts %}
     {{ block.super }}
     <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js" defer></script>
+    <script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157677377824525&sort=0&by=album&theme=default&scale=fit&skin=default&id=584867a46d8e3"></script>
     <script>
     function initMaps() {
       var LatLngPalihue = {lat: -38.694053, lng: -62.249016};
