@@ -17,6 +17,7 @@ class Proposal(ProposalBase):
     ]
 
     audience_level = models.IntegerField(choices=AUDIENCE_LEVELS)
+    youtube_url = models.URLField(blank=True, null=True, default='')
 
     recording_release = models.BooleanField(
         default=True,

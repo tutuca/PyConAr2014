@@ -38,11 +38,20 @@
 
 
 <h3>Slides</h3>
-                    {% if presentation.proposal_base.supporting_documents.exists %}<ul>
-                            {% for document in presentation.proposal_base.supporting_documents.all %}
-                            <li><a href="{{ document.download_url }}">{{ document.description }}</a></li>
-                            {% endfor %}
-                    </ul>
-                    {% endif %}
- 
+{% if presentation.proposal_base.supporting_documents.exists %}<ul>
+    {% for document in presentation.proposal_base.supporting_documents.all %}
+    <li><a href="{{ document.download_url }}">{{ document.description }}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+<h3>Video</h3>
+{% ifnotequal presentation.proposal.youtube_url '' %}
+
+
+<iframe width="560" height="315"
+                    src="{{ presentation.proposal.youtube_url }}" frameborder="0"
+                                                                  allowfullscreen></iframe>
+{% endifnotequal %}
+
 {% endblock %}
