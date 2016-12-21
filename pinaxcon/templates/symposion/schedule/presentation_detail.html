@@ -48,10 +48,10 @@
 <h3>Video</h3>
 {% ifnotequal presentation.proposal.youtube_url '' %}
 
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe src="{{ presentation.proposal.youtube_url }}" frameborder="0" allowfullscreen></iframe>
+</div>
 
-<iframe width="560" height="315"
-                    src="{{ presentation.proposal.youtube_url }}" frameborder="0"
-                                                                  allowfullscreen></iframe>
 {% endifnotequal %}
 
 {% endblock %}
