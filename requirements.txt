@@ -1,0 +1,3 @@
+Nikola==7.8.4
+webassets==0.12.1
+ghp-import2==1.0.1
