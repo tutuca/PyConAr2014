@@ -4,4 +4,5 @@ _build/
 pinaxcon/site_media/
 pinaxcon/local_settings.py
 static/dist
+package-lock.json
 .DS_Store
