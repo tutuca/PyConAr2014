@@ -1,13 +1,23 @@
-<header>
-  <div class="container">
-    <br>
-    <div class="center">
-      <h1>
-        <img src="/site_media/static/images/logo.png">
-      </h1>
-      <p class="lead">8va Conferencia Argentina de Python</p>
-      <p class="lead">25, 26 y 27 de Noviembre - Bahía Blanca</p>
-    </div>
+{% load static %}
 
-  </div><!-- /.container -->
-</header>
+<div class="banner">
+  <div class="flex-row flex-fill">
+    <div class="flex-col left">
+        <div class="center"><img src="{% static "images/logo.png" %}" /></div>
+
+    </div>
+    <div class="flex-col right">
+      <div class="inner-content">
+        <div>
+        <h1>17, 18 y 19 de Noviembre</h1>
+        <h2>Ciudad Universitaria UNC, Cordoba, Argentina</h2>
+        <ul>
+          <li>IRC: irc.freenode.org <a href="irc://irc.freenode.org:6697/pyar">#pyar</a> (usuarios tutuca y gaucho)</li>
+          <li>e-mail: <a href="mailto:pycon@pyar.org.ar">pycon@pyar.org.ar</a></li>
+          <li>Twitter: <a href="http://twitter.com/@pyconar">@pyconar</a></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>

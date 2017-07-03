@@ -1,5 +1,5 @@
 // fonts
-@import "https://fonts.googleapis.com/css?family=Bungee";
+@import "https://fonts.googleapis.com/css?family=Exo";
 
 @font-face {
    font-family: 'Bariol';
@@ -17,7 +17,9 @@ body {
   font-family: 'Bariol';
   padding: 0;
 }
-
+h1, h2, h3 {
+  font-family: 'Exo';
+}
 
 li {
   font-size: 16px;
@@ -25,11 +27,11 @@ li {
 
 nav.navbar {
   margin-bottom: 0;
-  background: #073755;
+  background: @brand-bg;
 
   .navbar-brand {
-    color: #e3c501;
-    font-family: 'Bungee', cursive;
+    color: @brand-primary;
+    font-family: 'Exo', cursive;
     float: left;
     height: 50px;
     padding: 12px;
@@ -38,12 +40,12 @@ nav.navbar {
   }
 
   .navbar-header .icon-bar {
-  	background: #e3c501;
+	background: @brand-primary;
   }
 
   @media (min-width: @screen-md-min) {
     height: 215px;
-    background: #073755 url('../images/back2.png') no-repeat center top;
+    background: @brand-bg url('../images/back2.png') no-repeat center top;
     .navbar-brand {
       display: none;
     }
@@ -60,7 +62,7 @@ nav.navbar {
     }
     li a {
       padding: 7px 15px;
-      color: #e3c501;
+      color: @brand-primary;
       &:hover {
         color: #fff;
         background: #0065b5;
@@ -74,12 +76,12 @@ nav.navbar {
     font-size: 16px;
     a {
       cursor: pointer;
-      color: #e3c501;
+      color: @brand-primary;
       @media (min-width: @screen-md-min) {
         &:after {
           width: 1px;
           height: 15px;
-          background: #e3c501;
+          background: @brand-primary;
           content: '';
           display: block;
           position: absolute;
@@ -121,15 +123,14 @@ body.home {
   nav.navbar {
     background: none;
     height: inherit;
-    margin-bottom: 20px;
     .navbar-brand {
       display: none;
     }
     li {
   		a {
-  			color: #e3c501;
+			color: @brand-primary;
         &:after {
-          background: #e3c501;
+          background: @brand-primary;
         }
   			&:hover {
   				color: #FFF;
@@ -175,12 +176,12 @@ body.home {
 }
 
 h2 {
-	font-family: 'Bungee', cursive;
+	font-family: 'Exo', cursive;
   color: #fff;
 }
 
 h3 {
-	font-family: 'Bungee', cursive;
+	font-family: 'Exo', cursive;
   color: #000;
 }
 header {
@@ -213,7 +214,7 @@ header {
 		max-width: 100%;
 	}
 	.lead {
-		color: #e3c501;
+		color: @brand-primary;
 		margin-bottom: 0;
 		font-size: 18px;
     text-align: center;
@@ -253,19 +254,25 @@ section {
     font-size: 20px;
   }
 }
-
-section.block-blue {
+/*
+background: #265890;
+background: #00456e;
+background: #003551;
+background: #002839;
+background: #0e76bc;
+*/
+section.block {
   &:nth-of-type(4n+1) {
-    background: #265890;
+    background: #FFF;
   }
   &:nth-of-type(4n+2) {
-    background: #00456e;
+    background: #FFF;
   }
   &:nth-of-type(4n+3) {
-    background: #003551;
+    background: #FFF;
   }
   &:nth-of-type(4n+4) {
-    background: #002839;
+    background: #FFF;
   }
   .btn {
 		font-size: 18px;
@@ -279,16 +286,16 @@ section.block-blue {
 		}
 	}
   p {
-    color: #fff;
+    color: #333;
   }
   h2 {
-    color: #fff;
+    color: #333;
   }
   a {
 		/* display: block; */
-		color: #e3c501;
+		color: @brand-primary;
 		&:hover {
-			color: #ffe74c;
+			color: @brand-primary;
 			text-decoration: none;
 		}
 	}
@@ -358,13 +365,13 @@ footer {
     }
   }
 
-  background: #e3c501;
-	color: #201815;
+  background: @brand-bg;
+	color: @brand-primary;
 	padding: 50px 0 30px 0;
   p {
     clear: both;
     a {
-      color: #201815;
+      color: @brand-primary;
       &:hover {
         color: #fff;
         text-decoration: none;
@@ -375,7 +382,7 @@ footer {
 		li {
       font-size: 14px;
       a {
-			  color: #201815;
+			  color: @brand-primary;
         &:hover {
   				color: #fff;
   			}
@@ -387,6 +394,19 @@ footer {
       }
     }
 	}
+  .navbar-nav li .dropdown-menu {
+    padding: 0;
+    li{
+      a {
+        padding: 3px 20px;
+        &:hover {
+          background: @brand-bg;
+          color: @brand-primary;
+        }
+      }
+    }
+  }
+
 }
 
 section.invitados {
@@ -428,7 +448,7 @@ section.colaboradores {
 section.apoyan {
   .container {
     a {
-      /* background: #073755;
+      /* background: @brand-bg;
       border-radius: 4px; */
       display: inline-block;
       padding: 10px 20px;
@@ -450,7 +470,7 @@ table.calendar > tbody > tr > td {
 table.calendar{
   th {
     font-size: 14px;
-    background: #e3c501;
+    background: @brand-primary;
     color: #000;
     font-weight: 700;
     &.time {
@@ -552,14 +572,4 @@ body.reviews.voting-status {
 }
 .sponsors-page .thumbnail code {
   color:#000;
-}
-footer .navbar-nav li .dropdown-menu {
-  padding: 0;
-}
-footer .navbar-nav li .dropdown-menu a {
-  padding: 3px 20px;
-}
-footer .navbar-nav li .dropdown-menu a:hover {
-  background: #e3c501;
-  color: #000;
 }

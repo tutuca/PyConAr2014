@@ -1,26 +1,21 @@
 import os
-import dj_database_url
+import environ
 
+env = environ.Env()
+root = environ.Path(__file__) - 2
+env.read_env()
+BASE_DIR = root()
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 PACKAGE_ROOT = os.path.abspath(os.path.dirname(__file__))
-BASE_DIR = PACKAGE_ROOT
+BASE_DIR = root()
 
-DEBUG = True #bool(int(os.environ.get("DEBUG", "1")))
+DEBUG = True #bool(int(env.get("DEBUG", "1")))
 
 DATABASES = {
-    'default': {
-          'ENGINE': 'django.db.backends.postgresql_psycopg2',
-          'NAME': os.environ.get("POSTGRES_ENV_POSTGRES_USER"),
-          'USER': os.environ.get("POSTGRES_ENV_POSTGRES_USER"),
-          'PASSWORD': os.environ.get("POSTGRES_ENV_POSTGRES_PASSWORD"),
-          'HOST': os.environ.get("POSTGRES_PORT_5432_TCP_ADDR"),
-          'PORT': os.environ.get("POSTGRES_PORT_5432_TCP_PORT"),
-    }
+    'default': env.db('DATABASE_URL',
+                      default='psql://pyconar:pyconar@localhost:5432/pyconar')
 }
-
-
-
 
 ALLOWED_HOSTS = [
     "*",
@@ -39,7 +34,7 @@ TIME_ZONE = "America/Argentina/Buenos_Aires"
 # http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGE_CODE = "es-AR"
 
-SITE_ID = int(os.environ.get("SITE_ID", 1))
+SITE_ID = int(env.str("SITE_ID", 1))
 
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
@@ -169,7 +164,6 @@ INSTALLED_APPS = [
     #extra
     "django_extensions",
     "captcha",
-    "markdownify",
 ]
 
 MARKDOWNIFY_WHITELIST_TAGS = [
@@ -251,5 +245,3 @@ LOCALE_PATHS = (
             PROJECT_ROOT + '/website/locale', )
 
 THEME_CONTACT_EMAIL = 'pyconar@python.org.ar'
-
-from local_settings import *

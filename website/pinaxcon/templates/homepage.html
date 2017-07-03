@@ -3,72 +3,28 @@
 {% load i18n %}
 {% load pinax_boxes_tags %}
 {% load static %}
-{% block head_title %}Bienvenid@os a Pyconar2016{% endblock %}
+{% block head_title %}Bienvenid@os a Pyconar2017{% endblock %}
 
 {% block body_class %}home{% endblock %}
 
 {% block body_base %}
-  {% if ACCOUNT_OPEN_SIGNUP %}
-  <section class="container-fluid primary block-blue">
-    <div class="container">
-      <h2>!Gracias!</h2>
-      <p>Desde la organización de la PyconAR 2016 queríamos agradecerles a todos
-      los asistentes, sponsors, colaboradores y oradores por habernos ayudado a
-      construir este evento el cual disfrutamos enormemente. Esperamos que les
-      haya gustado tanto como a nosotros.</p>
-      <p>¡Hasta pronto!</p>
-    </div>
-  </section>
-  {% else %}
-  {% endif %}
 
-  <section class="container-fluid secondary block-blue">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12"><img src="{% static "images/foto_final.jpg" %}" class="img-responsive" /></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="container-fluid secondary block-blue">
+  <section class="container-fluid secondary block">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h2>Ubicaciones</h2>
-          <p>La conferencia se desarrolló en tres espacios. El día viernes
-          sprints, charlas y un taller de <a href="http://dementeslibres.facttic.org.ar/">De mentes Libres</a> en el Club de emprendedores de Bahía
-          Blanca en la calle Drago 45 (pleno centro de la ciudad) y el taller de Django Girls en el Salón "Fundadores" de la UNS en la Av. Colón 80,
-          y los días sábado y domingo el evento en el
-          Complejo Palihue perteneciente a la Universidad Nacional del Sur,
-          ubicado en la calle San Andrés al 800, hubo
-          stands, talleres, múltiples tracks de charlas, espacios de networking y sprints.</p>
+          <p>La conferencia se desarrollara en las Baterias D de la Ciudad Universitaria.
+            Habra stands, talleres, múltiples tracks de charlas, espacios de networking y sprints.</p>
         </div>
       </div>
-      <h3>Club de emprendedores</h3>
+      <h3>Ciudad Universitaria</h3>
       <div class="row top-buffer">
         <div class="col-md-6">
           <div id="map-club" class="map"></div>
         </div>
         <div class="col-md-6">
-          <img src="{% static "images/club_emprendedores.jpg" %}" class="img-responsive" />
-        </div>
-      </div>
-      <h3>Salón de los Fundadores</h3>
-      <div class="row top-buffer">
-        <div class="col-md-6">
-          <div id="map-fundadores" class="map"></div>
-        </div>
-        <div class="col-md-6">
-          <img src="{% static "images/fundadores.jpg" %}" class="img-responsive" />
-        </div>
-      </div>
-      <h3>Complejo Palihue</h3>
-      <div class="row top-buffer">
-        <div class="col-md-6">
-          <div id="map-palihue" class="map"></div>
-        </div>
-        <div class="col-md-6">
-          <img src="{% static "images/palihue.jpg" %}" class="img-responsive" />
+          <img src="{% static "images/baterias-d.jpg" %}" class="img-responsive" />
         </div>
       </div>
     </div>
@@ -76,7 +32,7 @@
 
   </section>
 
-  <section class="container-fluid secondary block-blue invitados">
+  <section class="container-fluid secondary block invitados">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
@@ -94,54 +50,11 @@
           <p>Victoria Martinez de la Cruz es graduada de la Universidad Nacional del Sur y actualmente trabaja como ingeniera de software en Red Hat para el proyecto OpenStack. Es co-fundadora de la comunidad LinuxChix Argentina, iniciativa que busca reunir a las mujeres en tecnología de Argentina y ayudar a minimizar la brecha de género en el ámbito de las TICs. Mentora en diversas iniciativas de educación, apasionada y gran defensora de la filosofía open-source y entusiasta de la tecnología en general.</p>
         </div>
       </div>
-      <div class="row" id="angel">
-        <div class="col-md-3">
-            <img src="{% static "images/angel.jpg" %}" class="img-responsive" />
-        </div>
-        <div class="col-md-9">
-          <h3>Ángel Medinilla</h3>
-          <p>Fundador, Gerente y Consultor Senior en <a href="http://www.proyectalis.com/" target="_blank">Proyectalis</a> y en <a href="http://www.improvement21.com/" target="_blank">Improvement21</a>.</p>
-          <p>Ángel Medinilla lleva más de 20 años en el mercado de las Tecnologías de la Información y las Telecomunicaciones. Desde 2007 es Gerente y Consultor Senior en Proyectalis, la empresa líder en la prestación de servicios de consultoría y formación en metodologías Ágiles en España y una de las más reconocidas a nivel internacional, con proyectos desarrollados en empresas internacionales y nacionales. En 2015, junto con Andrea Darabos, ha fundado Improvement21, una empresa dedicada a llevar los hábitos de mejora continua a personas y organizaciones de todo el mundo.</p>
-        </div>
-      </div>
-      <div class="row" id="fernando">
-        <div class="col-md-3">
-            <img src="{% static "images/Fernando-S.png" %}" class="img-responsive" />
-        </div>
-        <div class="col-md-9">
-          <h3>Fernando Schapachnik</h3>
-          <p><a href="http://www.fundacionsadosky.org.ar/" target="_blank">Fundación Sadosky</a></p>
-          <p>Fernando Schapachnik es doctor en Ciencias de la Computación y profesor adjunto
-del Departamento de Computación de la Facultad de Ciencias Exactas y Naturales
-de la Universidad de Buenos Aires. Participa de la coordinación de la
-Iniciativa Program.AR de la Fundación Dr. Manuel Sadosky. En los últimos años
-se ha dedicado a distintos aspectos relacionados con la llegada de las Ciencias
-de la Computación a la escuela argentina.</p>
 
-        </div>
-      </div>
     </div>
   </section>
 
-  <section class="container-fluid secondary block-blue">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h2>Galería de fotos</h2>
-        </div>
-      </div>
-      <div class="row">
-
-        <div class="col-md-12">
-            <div id="flickrembed"></div><small style="display: block;
-                text-align: center; margin: 0 auto;">Powered by <a
-                    href="https://flickrembed.com">flickr embed</a>.</small>
-      </div>
-    </div>
-    </div>
-  </section>
-
-  <section class="container-fluid secondary block-blue sponsors">
+  <section class="container-fluid secondary block sponsors">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -152,7 +65,7 @@ de la Computación a la escuela argentina.</p>
     </div>
   </section>
 
-  <!-- section class="container-fluid primary block-blue">
+  <!-- section class="container-fluid primary block">
     <div class="container">
       <h2>Seguimos buscando Sponsors</h2>
       <p>¡Si querés apoyar la pyconar no dudes en escribirnos!</p>
@@ -174,8 +87,6 @@ de la Computación a la escuela argentina.</p>
     <script>
     function initMaps() {
       var LatLngPalihue = {lat: -38.694053, lng: -62.249016};
-      var LatLngClub = {lat: -38.719668, lng: -62.266995};
-      var LatLngFundadores = {lat: -38.71971, lng: -62.26782};
 
       function makeTileLayer() {
         return L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -184,23 +95,12 @@ de la Computación a la escuela argentina.</p>
         });
       }
 
-      var mapPalihue = L.map('map-palihue').setView(LatLngPalihue, 17);
-      makeTileLayer().addTo(mapPalihue);
-
-      var mapClub = L.map('map-club').setView(LatLngClub, 18);
-      makeTileLayer().addTo(mapClub);
-
       var mapFundadores = L.map('map-fundadores').setView(LatLngFundadores, 18);
       makeTileLayer().addTo(mapFundadores);
 
       var marker = L.marker(LatLngPalihue).addTo(mapPalihue);
       marker.bindPopup('UNS Campus Palihue');
 
-      var marker = L.marker(LatLngClub).addTo(mapClub);
-      marker.bindPopup('Club de emprendedores de Bahía Blanca');
-
-      var marker = L.marker(LatLngFundadores).addTo(mapFundadores);
-      marker.bindPopup('Salón de los Fundadores');
     }
 
     $(document).ready(initMaps);
