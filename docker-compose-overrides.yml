@@ -1,5 +1,0 @@
-version : '2'
-services:
-  backend:
-    environment:
-      - DATABASE_URL=psql://postgres:mysecretpassword@postgres:5432/pyconar

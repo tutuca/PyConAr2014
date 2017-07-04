@@ -6,3 +6,4 @@ pinaxcon/local_settings.py
 static/dist
 package-lock.json
 .DS_Store
+docker-compose-overrides.yml
