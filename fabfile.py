@@ -27,6 +27,7 @@ env.bundle = "%s-%s-static.tar.gz" % (
     now,
 )
 
+
 def production():
     """Production environment."""
     env.hosts = ['miturburu.webfactional.com']
@@ -42,6 +43,7 @@ def production():
         'apache2/bin/restart'
     )
 
+
 def release(rev='HEAD'):
     """Create a tarball, uploads it and decompresses it in the rigth path."""
     require("host", provided_by=[production])
@@ -55,6 +57,7 @@ def release(rev='HEAD'):
     run("rm %s" % tar)
     local("rm %s" % tar)
 
+
 def build_static():
     """
     Create a tarball, for uploading.
@@ -67,7 +70,7 @@ def build_static():
     with lcd('./website'):
         local("npm run build")
         local("python manage.py collectstatic --noinput")
-        local("tar cf -C pinaxcon/site_media/ %s static/" % env.bundle)
+        local("tar -C website/pinaxcon/site_media/ -cf prueba.tar.gz static/" % env.bundle)
 
 
 def upload_static(force=False):
@@ -83,6 +86,7 @@ def upload_static(force=False):
     put(env.bundle, env.bundle)
     run("tar xf ~/%s -C %s " % (env.bundle, env.static_root))
     local("rm %s" % env.bundle)
+
 
 def apache_restart():
     """Restart the program in the servers."""

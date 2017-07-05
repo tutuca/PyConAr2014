@@ -9,3 +9,4 @@ website/pyconar-*.tar.gz
 package-lock.json
 .DS_Store
 docker-compose-overrides.yml
+.env
