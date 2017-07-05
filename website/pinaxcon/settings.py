@@ -10,7 +10,7 @@ PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir
 PACKAGE_ROOT = os.path.abspath(os.path.dirname(__file__))
 BASE_DIR = root()
 
-DEBUG = True #bool(int(env.get("DEBUG", "1")))
+DEBUG = env.bool('DEBUG', True)
 
 DATABASES = {
     'default': env.db('DATABASE_URL',

@@ -70,7 +70,7 @@ def build_static():
     with lcd('./website'):
         local("npm run build")
         local("python manage.py collectstatic --noinput")
-        local("tar -C website/pinaxcon/site_media/ -cf prueba.tar.gz static/" % env.bundle)
+        local("tar -C pinaxcon/site_media/ -cf %s static/" % env.bundle)
 
 
 def upload_static(force=False):
