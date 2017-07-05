@@ -1,21 +1,13 @@
-// fonts
-@import "https://fonts.googleapis.com/css?family=Exo";
-
-@font-face {
-   font-family: 'Bariol';
-    src: url('../fonts/bariol/bariol_regular-webfont.eot');
-    src: url('../fonts/bariol/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/bariol/bariol_regular-webfont.woff2') format('woff2'),
-         url('../fonts/bariol/bariol_regular-webfont.woff') format('woff'),
-         url('../fonts/bariol/bariol_regular-webfont.ttf') format('truetype'),
-         url('../fonts/bariol/bariol_regular-webfont.svg#bariol_regularregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+html {
+  position: relative;
+  min-height: 100%;
 }
-
 body {
-  font-family: 'Bariol';
+  /* Margin bottom by footer height */
+  margin-bottom: @footer-height;
   padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 h1, h2, h3 {
   font-family: 'Exo';
@@ -28,10 +20,10 @@ li {
 nav.navbar {
   margin-bottom: 0;
   background: @brand-bg;
-
+  font-family: Exo;
+  border-radius: 0;
   .navbar-brand {
     color: @brand-primary;
-    font-family: 'Exo', cursive;
     float: left;
     height: 50px;
     padding: 12px;
@@ -44,11 +36,6 @@ nav.navbar {
   }
 
   @media (min-width: @screen-md-min) {
-    height: 215px;
-    background: @brand-bg url('../images/back2.png') no-repeat center top;
-    .navbar-brand {
-      display: none;
-    }
     .navbar-nav {
       float: right;
       margin-top: 0;
@@ -111,54 +98,6 @@ nav.navbar {
   border:none;
 }
 
-body.home {
-  background: #002839;
-  color: #fff;
-
-  h3 {
-    color: #fff;
-  }
-
-
-  nav.navbar {
-    background: none;
-    height: inherit;
-    .navbar-brand {
-      display: none;
-    }
-    li {
-  		a {
-			color: @brand-primary;
-        &:after {
-          background: @brand-primary;
-        }
-  			&:hover {
-  				color: #FFF;
-  			}
-  		}
-  	}
-    li.active a {
-  		text-decoration: underline;
-  		color: #FFF;
-  	}
-
-    ul.dropdown-menu {
-      padding: 0;
-      border-radius: 4px;
-      li.active a {
-        color: #fff;
-        text-decoration: none;
-      }
-      li a {
-        &:hover {
-          color: #fff;
-          background: #0065b5;
-        }
-      }
-    }
-  }
-}
-
 .map {
   width: 100%;
   height: 194px;
@@ -173,33 +112,6 @@ body.home {
 
 .center {
 	text-align: center
-}
-
-h2 {
-	font-family: 'Exo', cursive;
-  color: #fff;
-}
-
-h3 {
-	font-family: 'Exo', cursive;
-  color: #000;
-}
-header {
-  .container {
-		padding: 0 0 50px 0;
-    h1 {
-      margin-top: 0;
-    }
-  }
-}
-
-section {
-  .container {
-		padding: 30px 0 30px 0;
-    p {
-      text-align: justify;
-    }
-	}
 }
 
 .messages {
@@ -232,16 +144,16 @@ section {
     font-size: 18px;
   }
   h2 {
-    color: #0e76bc;
+    color: lighten(@brand-bg, 15%);
   }
   .btn {
 		/* font-size: 18px; */
 		color: #fff;
-    background: #0e76bc;
+    background: lighten(@brand-bg, 15%);
 		border:none;
     display: inline-block;
 		&:hover {
-			background: #0e76bc;
+			background: lighten(@brand-bg, 15%);
       color: #201815;
 		}
 	}
@@ -249,7 +161,7 @@ section {
 
 .alojamiento {
   h4 {
-    color: #0e76bc;
+    color: lighten(@brand-bg, 15%);
     font-weight: bolder;
     font-size: 20px;
   }
@@ -258,8 +170,8 @@ section {
 background: #265890;
 background: #00456e;
 background: #003551;
-background: #002839;
-background: #0e76bc;
+background: darken(@brand-bg, 7%);
+background: lighten(@brand-bg, 15%);
 */
 section.block {
   &:nth-of-type(4n+1) {
@@ -277,7 +189,7 @@ section.block {
   .btn {
 		font-size: 18px;
 		color: #FFF;
-    background: #0e76bc;
+    background: lighten(@brand-bg, 15%);
 		border:none;
     display: inline-block;
 		&:hover {
@@ -359,6 +271,12 @@ div.codigo-conducta {
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 2em;
+  /* Set the fixed height of the footer here */
+  height: @footer-height;
   @media (max-width: 480px) {
     .col-md-6 {
       text-align: center;
@@ -459,7 +377,7 @@ section.apoyan {
 body.schedule,
 body.presentation {
   h3 {
-    color: #0e76bc;
+    color: lighten(@brand-bg, 15%);
   }
 }
 
@@ -559,7 +477,7 @@ body.reviews.voting-status {
 }
 .sponsors-page .thumbnail h3 {
   position: absolute;
-  background: #0e76bc;
+  background: lighten(@brand-bg, 15%);
   transform: rotate(-45deg);
   font-size: 16px;
   padding: 10px;
@@ -572,4 +490,8 @@ body.reviews.voting-status {
 }
 .sponsors-page .thumbnail code {
   color:#000;
+}
+.standalone {
+  min-height: 80vh;
+  padding: 4em 2em;
 }

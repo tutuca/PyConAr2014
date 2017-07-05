@@ -11,55 +11,32 @@
 
   <section class="container-fluid secondary block">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Ubicaciones</h2>
+      <h3>Ciudad Universitaria</h3>
+      <div class="row top-buffer">
+        <div class="col-md-4">
           <p>La conferencia se desarrollara en las Baterias D de la Ciudad Universitaria.
             Habra stands, talleres, múltiples tracks de charlas, espacios de networking y sprints.</p>
         </div>
-      </div>
-      <h3>Ciudad Universitaria</h3>
-      <div class="row top-buffer">
-        <div class="col-md-6">
-          <div id="map-club" class="map"></div>
-        </div>
-        <div class="col-md-6">
-          <img src="{% static "images/baterias-d.jpg" %}" class="img-responsive" />
+        <div class="col-md-8">
+          <div class="embed-responsive embed-responsive-4by3">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13616.619364968756!2d-64.1864303!3d-31.4374039!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd031575c5261e9e1!2sModulo+Baterias+%22D%22+-+Honorable+Consejo+Superior%2C+C%C3%B3rdoba%2C+Argentina!5e0!3m2!1ses-419!2sar!4v1499226402085"
+              width="400" height="300" frameborder="0" class="embed-responsive-item" style="border:0" allowfullscreen></iframe>
+          </div>
+
         </div>
       </div>
     </div>
 
 
-  </section>
-
-  <section class="container-fluid secondary block invitados">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h2>Invitados</h2>
-        </div>
-      </div>
-
-      <div class="row" id="victoria">
-        <div class="col-md-3">
-          <img src="/site_media/static/images/victoria2.jpg" class="img-responsive" />
-        </div>
-        <div class="col-md-9">
-          <h3>Victoria Martinez de la Cruz</h3>
-          <p>Ingeniera de software en <a href="https://www.redhat.com/es" target="_blank">Red Hat</a>.</p>
-          <p>Victoria Martinez de la Cruz es graduada de la Universidad Nacional del Sur y actualmente trabaja como ingeniera de software en Red Hat para el proyecto OpenStack. Es co-fundadora de la comunidad LinuxChix Argentina, iniciativa que busca reunir a las mujeres en tecnología de Argentina y ayudar a minimizar la brecha de género en el ámbito de las TICs. Mentora en diversas iniciativas de educación, apasionada y gran defensora de la filosofía open-source y entusiasta de la tecnología en general.</p>
-        </div>
-      </div>
-
-    </div>
   </section>
 
   <section class="container-fluid secondary block sponsors">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2>Sponsors</h2>
           {% box "sponsors" %}
+          &nbsp;
         </div>
       </div>
     </div>
