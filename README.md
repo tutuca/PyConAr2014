@@ -1,19 +1,19 @@
-17, 18 y 19 de Noviembre, PyConAr 2014 @ Cordoba!
+17, 18 y 19 de Noviembre, PyConAr 2017 @ Cordoba!
 =================================================
 
 
 Medios de comunicación:
 -----------------------
 
-Sitio oficial: http://pycon.com.ar
+Sitio oficial: http://ar.pycon.org
 
-IRC / irc.freenode.org #pyar (usuarios fisadev y arielrossanigo)
+IRC / irc.freenode.org #pyar (usuarios gaucho y tutuca)
 
-MAIL a fisadev@gmail.com o arielrossanigo@gmail.com
+MAIL a pyconar@python.org.ar
 
 Twitter: @pyconar
 
- 
+
 
 
 Ejecutar el sitio
@@ -45,7 +45,7 @@ See [this blog post](http://blog.pinaxproject.com/2016/02/26/recap-february-pina
 
 In case of any questions we recommend you [join our Pinax Slack team](http://slack.pinaxproject.com) and ping us there instead of creating an issue on GitHub. Creating issues on GitHub is of course also valid but we are usually able to help you faster if you ping us in Slack.
 
-We also highly recommend reading our [Open Source and Self-Care blog post](http://blog.pinaxproject.com/2016/01/19/open-source-and-self-care/).  
+We also highly recommend reading our [Open Source and Self-Care blog post](http://blog.pinaxproject.com/2016/01/19/open-source-and-self-care/).
 
 
 Code of Conduct
