@@ -10,144 +10,68 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
 
-    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo:400,700,800" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
 
-    <header class="header">
-      <h1 class="header__logo"><img alt="PyConAr2017" src="img/logo.png"></h1>
-      <nav class="header__nav">
-        <ul>
-          <li><a class="header__nav__link" href="#when">Cúando</a></li>
-          <li><a class="header__nav__link" href="https://goo.gl/forms/8aEXaHvChYHWfyZw2">Inscribí tu charla</a></li>
-          <li><a class="header__nav__link" href="#where">Dónde</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <section class="about" id="when">
-      <div class="about__hero">
-        <h1 class="about__hero__main-title">17, 18 y 19 de Noviembre</h1>
-        <h2 class="section-title">Ciudad Universitaria UNC, Cordoba, Argentina</h2>
-      </div>
-
-      <ul class="about__links social-media__links">
-        <li>IRC: irc.freenode.org <a href="irc://irc.freenode.org:6697/pyar">#pyar</a><small>(usuarios tutuca y gaucho)</small>
-        </li>
-        <li>e-mail: <a href="mailto:pyconar@python.org.ar">pyconar@python.org.ar</a>
-        </li>
-        <li>Twitter:<a href="http://twitter.com/@pyconar">@pyconar</a>
-        </li>
-      </ul>
-    </section>
-
-    <section class="speakers">
-      <h1 class="section-title"><a class="button" href="https://goo.gl/forms/8aEXaHvChYHWfyZw2">Inscribite</a></h1>
-      <p>Completa el formulario online para inscribir tu charla</p>
-    </section>
-
-    <section class="where" id="where">
-      <h3 class="section-title">La conferencia se desarrollara en las Baterias D de la Ciudad Universitaria.</h3>
-      <p>Habrá stands, talleres, múltiples tracks de charlas, espacios de networking y sprints.</p>
-
-      <iframe class="where__map"
-      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13616.619364968756!2d-64.1864303!3d-31.4374039!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd031575c5261e9e1!2sModulo+Baterias+%22D%22+-+Honorable+Consejo+Superior%2C+C%C3%B3rdoba%2C+Argentina!5e0!3m2!1ses-419!2sar!4v1499226402085"
-      width="400" height="300" frameborder="0" class="embed-responsive-item" style="border:0" allowfullscreen></iframe>
-    </section>
-
-    <footer>
-      <p>PyConAr 2017 - Cordoba, Argentina</p>
-      <ul class="about__links social-media__links">
-        <li><i class="icon-irc"></i><a href="irc://irc.freenode.org:6697/pyar">#pyar</a><small>(usuarios tutuca y gaucho)</small>
-        </li>
-        <li><i class="icon-email"></i> <a href="mailto:pyconar@python.org.ar">pyconar@python.org.ar</a>
-        </li>
-        <li><i class="icon-twitter"></i><a href="http://twitter.com/@pyconar">@pyconar</a>
-        </li>
-      </ul>
-    </footer>
-
-    <!--<div id="react-mount">
-    <div class="container-fluid">
-    <div>
-
-    <div class="flex-row flex-fill">
-    <div class="flex-col left">
-    <div class="center">
-    <img src="img/logo.png"/>
-    </div>
-    </div>
-    <div class="flex-col right">
-    <div class="inner-content">
-    <div>
-      <h1>17, 18 y 19 de Noviembre</h1>
-      <h2>Ciudad Universitaria UNC, Cordoba, Argentina</h2>
+  <header class="header clear">
+    <h1 class="header__logo">
+      <img alt="PyConAr2017" src="img/logo-pyconar.svg">
+      <span>PYCONAR CBA 2017</span>
+    </h1>
+    <nav class="header__nav">
       <ul>
-          <li>
-              IRC: irc.freenode.org
-              <a href="irc://irc.freenode.org:6697/pyar">#pyar</a>
-               (usuarios tutuca y gaucho)
-
-          </li>
-          <li>
-              e-mail:
-
-              <a href="mailto:pyconar@python.org.ar">pyconar@python.org.ar</a>
-          </li>
-          <li>
-              Twitter:
-
-              <a href="http://twitter.com/@pyconar">@pyconar</a>
-          </li>
+        <li><a class="header__nav__link" href="#when">Cúando</a></li>
+        <li><a class="header__nav__link" href="https://goo.gl/forms/8aEXaHvChYHWfyZw2">Inscribí tu charla</a></li>
+        <li><a class="header__nav__link" href="#where">Dónde</a></li>
       </ul>
-      <div class="call-to-action margin-top">
-          <h3><a class="button" href="https://goo.gl/forms/8aEXaHvChYHWfyZw2">Inscribite</a></h3>
-          <p>Completa el formulario online para inscribir tu charla</p>
-      </div>
+    </nav>
+  </header>
 
+  <section class="about" id="when">
+    <div class="about__hero">
+      <h1 class="about__hero__main-title">17, 18 y 19 de Noviembre</h1>
+      <h2 class="section-title">Ciudad Universitaria UNC, Cordoba, Argentina</h2>
     </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div>
-    <div class="container margin-top">
 
-    <div class="row">
-    <div class="column">
-    <h3>Ciudad Universitaria</h3>
-    <div class="row">
-    <div class="column">
-    <p>La conferencia se desarrollara en las Baterias D de la Ciudad Universitaria.
-    Habrá stands, talleres, múltiples tracks de charlas, espacios de networking y sprints.</p>
-    </div>
-    <div class="column">
-    <div class="embed-responsive embed-responsive-4by3">
-    <iframe
+    <ul class="about__links social-media__links">
+      <li>IRC: irc.freenode.org <a href="irc://irc.freenode.org:6697/pyar">#pyar</a><small>(usuarios tutuca y gaucho)</small>
+      </li>
+      <li>e-mail: <a href="mailto:pyconar@python.org.ar">pyconar@python.org.ar</a>
+      </li>
+      <li>Twitter:<a href="http://twitter.com/@pyconar">@pyconar</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="speakers">
+    <h1 class="section-title"><a class="button" href="https://goo.gl/forms/8aEXaHvChYHWfyZw2">Inscribite</a></h1>
+    <p>Completa el formulario online para inscribir tu charla</p>
+  </section>
+
+  <section class="where" id="where">
+    <h3 class="section-title">La conferencia se desarrollara en las Baterias D de la Ciudad Universitaria.</h3>
+    <p>Habrá stands, talleres, múltiples tracks de charlas, espacios de networking y sprints.</p>
+
+    <iframe class="where__map"
     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13616.619364968756!2d-64.1864303!3d-31.4374039!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd031575c5261e9e1!2sModulo+Baterias+%22D%22+-+Honorable+Consejo+Superior%2C+C%C3%B3rdoba%2C+Argentina!5e0!3m2!1ses-419!2sar!4v1499226402085"
     width="400" height="300" frameborder="0" class="embed-responsive-item" style="border:0" allowfullscreen></iframe>
-    </div>
+  </section>
 
-    </div>
-    </div>
-    </div>
-    </div>
-
-    </div>
-    <div class="container-fluid margin-top footer">
-    <div class="row">
-    <div class="column">
+  <footer>
     <p>PyConAr 2017 - Cordoba, Argentina</p>
-
-
-    </div>
-    </div>
-  </div> -->
-
-    <script>
+    <ul class="about__links social-media__links">
+      <li><i class="icon-irc"></i><a href="irc://irc.freenode.org:6697/pyar">#pyar</a><small>(usuarios tutuca y gaucho)</small>
+      </li>
+      <li><i class="icon-email"></i> <a href="mailto:pyconar@python.org.ar">pyconar@python.org.ar</a>
+      </li>
+      <li><i class="icon-twitter"></i><a href="http://twitter.com/@pyconar">@pyconar</a>
+      </li>
+    </ul>
+  </footer>
+  <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -156,6 +80,6 @@
     ga('create', 'UA-102413790-1', 'auto');
     ga('send', 'pageview');
 
-    </script>
+  </script>
   </body>
 </html>
