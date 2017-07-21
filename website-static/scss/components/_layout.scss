@@ -1,0 +1,9 @@
+.section-title {
+  font-size: em(16);
+  font-family: "Exo";
+  color: $white;
+
+  @include breakpoint("medium-landscape") {
+    font-size: em(32);
+  }
+}

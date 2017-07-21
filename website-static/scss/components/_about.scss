@@ -1,0 +1,52 @@
+.about {
+  &__hero {
+    height: 31vh;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-color: $primary-color;
+    background-blend-mode: exclusion;
+    position: relative;
+
+    @include breakpoint("medium-landscape") {
+      height: 70vh;
+      min-height: 500px;
+    }
+  }
+
+  &__hero__main-title {
+    margin: 0 auto rem(25);
+    font-size: em(40);
+    font-weight: bold;
+    font-family: "Exo";
+    color: $white;
+
+    @include breakpoint("medium-landscape") {
+      font-size: em(60);
+    }
+  }
+
+  &__hero__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    width: 90%;
+    text-align: center;
+  }
+
+  &__links {
+    padding: 0 rem(16);
+
+    li {
+      display: inline-block;
+      color: $black;
+      font-size: em(20);
+      font-family: "Exo";
+      font-weight: 600;
+    }
+
+    a {
+      font-weight: normal;
+    }
+  }
+}

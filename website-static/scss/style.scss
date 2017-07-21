@@ -3,7 +3,9 @@
 @import "mixins";
 @import "neat";
 @import "breakpoints";
+@import "components/layout";
 @import "components/header";
+@import "components/about";
 
 html {
   font-size: $em-base;
