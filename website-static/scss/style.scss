@@ -1,11 +1,15 @@
 @import 'reset';
 @import 'variables';
 @import "mixins";
+@import "animations";
 @import "neat";
 @import "breakpoints";
 @import "components/layout";
+@import "components/cta";
 @import "components/header";
+@import "components/hero";
 @import "components/about";
+@import "components/speakers";
 
 html {
   font-size: $em-base;

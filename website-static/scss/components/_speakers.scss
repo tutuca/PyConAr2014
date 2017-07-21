@@ -1,0 +1,32 @@
+.speakers {
+  background-color: $san-marino;
+  height: rem(250);
+  padding-top: rem(60);
+  text-align: center;
+
+  .section-title {
+    color: $black;
+  }
+
+  .cta {
+    @extend %cta;
+    background-color: $cloud-burst;
+    color: $white;
+    display: inline-block;
+    width: rem(180);
+    animation: neon 1.5s ease-in-out infinite;
+
+    &:hover, &:focus {
+      background-color: $putty;
+    }
+  }
+
+  p {
+    font-size: em(16);
+    font-family: "Exo";
+    color: $white;
+    width: 80%;
+    line-height: 1.4;
+    margin: rem(25) auto 0;
+  }
+}
