@@ -1,6 +1,6 @@
 .speakers {
-  background-color: $san-marino;
-  height: rem(250);
+  background-color: $mercury;
+  height: rem(390);
   padding-top: rem(60);
   text-align: center;
 
@@ -14,7 +14,6 @@
     color: $white;
     display: inline-block;
     width: rem(180);
-    animation: neon 1.5s ease-in-out infinite;
 
     &:hover, &:focus {
       background-color: $putty;
@@ -23,10 +22,18 @@
 
   p {
     font-size: em(16);
-    font-family: "Exo";
-    color: $white;
+    color: $black;
     width: 80%;
     line-height: 1.4;
-    margin: rem(25) auto 0;
+    margin: rem(25) auto rem(20);
+  }
+
+  &__title {
+    font-size: em(20);
+    margin-top: rem(25);
+  }
+
+  .link {
+    color: $san-marino;
   }
 }

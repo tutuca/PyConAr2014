@@ -1,0 +1,16 @@
+.footer {
+  background-color: $port-gore;
+  color: $white;
+  text-align: center;
+  padding: rem(45) 0;
+
+
+  p {
+    max-width: 80%;
+    margin: 0 auto rem(25);
+  }
+
+  .social-media__links li {
+    display: block;
+  }
+}

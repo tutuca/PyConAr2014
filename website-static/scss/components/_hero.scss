@@ -4,8 +4,8 @@
   position: relative;
 
   @include breakpoint("medium-landscape") {
-    height: 70vh;
-    min-height: 500px;
+    height: 40vh;
+    background-position: center;
   }
 
   &__main-title {

@@ -9,33 +9,25 @@
     color: $white;
   }
 
+  &__hero__subtitle {
+    font-size: em(16);
+    color: $white;
+
+    @include breakpoint("medium-landscape") {
+      font-size: em(30);
+    }
+  }
+
   &__links {
     padding: rem(35) rem(16) rem(20);
 
+    @include breakpoint("medium") {
+      text-align: center;
+    }
+
     li {
-      display: inline-block;
       color: $black;
-      font-size: em(16);
-      font-family: "Exo";
-      font-weight: 600;
-      margin-bottom: rem(15);
-
-      @include breakpoint("medium-landscape") {
-        font-size: em(20);
-      }
     }
 
-    a {
-      font-weight: normal;
-      cursor: pointer;
-
-      &:focus, &:hover {
-        color: $putty;
-      }
-    }
-
-    small {
-      font-size: em(10);
-    }
   }
 }

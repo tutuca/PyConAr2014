@@ -5,7 +5,6 @@
   position: relative;
 
   &__logo {
-    font-family: "Exo";
     font-size: em(24);
     width: 100%;
 
@@ -69,7 +68,6 @@
       color: $white;
       padding: rem(5);
       font-weight: bold;
-      font-family: "Exo";
       text-align: center;
 
       @include breakpoint("medium-landscape") {

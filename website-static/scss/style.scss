@@ -5,14 +5,19 @@
 @import "neat";
 @import "breakpoints";
 @import "components/layout";
+@import "components/icons";
 @import "components/cta";
+@import "components/social-media";
 @import "components/header";
+@import "components/footer";
 @import "components/hero";
 @import "components/about";
 @import "components/speakers";
+@import "components/where";
 
 html {
   font-size: $em-base;
+  font-family: "Exo";
 }
 
 
