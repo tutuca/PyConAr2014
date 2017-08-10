@@ -1,13 +1,13 @@
 .social-media__links {
   li {
     display: inline-block;
-    font-size: em(16);
+    font-size: 1em;
     font-weight: 600;
-    margin-bottom: rem(15);
+    margin-bottom: .9375rem;
 
     @include breakpoint("medium") {
-      font-size: em(20);
-      margin-left: rem(30);
+      font-size: 1.25em;
+      margin-left: 1.875rem;
     }
 
     &:first-child {
@@ -27,12 +27,12 @@
   }
 
   small {
-    font-size: em(12);
+    font-size: .75em;
   }
 
   i {
-    font-size: em(18);
-    margin-right: rem(5);
+    font-size: 1.125em;
+    margin-right: .3125rem;
     vertical-align: middle;
   }
 }

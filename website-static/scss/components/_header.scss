@@ -1,6 +1,6 @@
 .header {
   background-color: $primary-color;
-  height: rem(85);
+  height: 5.3125rem;
   width: 100%;
   position: relative;
 
@@ -11,7 +11,7 @@
   }
 
   &__logo {
-    font-size: em(24);
+    font-size: 1.5em;
     width: 100%;
 
     @include breakpoint("medium-landscape") {
@@ -24,29 +24,29 @@
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
-      top: rem(23);
-      width: rem(221);
+      top: 1.4375rem;
+      width: 13.8125rem;
       color: $white;
       font-weight: 800;
 
       @include breakpoint("medium-landscape") {
         position: static;
         transform: none;
-        margin-left: rem(100);
-        margin-top: rem(32);
+        margin-left: 6.25rem;
+        margin-top: 2rem;
         display: block;
       }
     }
 
     img {
-      width: rem(45);
+      width: 2.8125rem;
       display: inline-block;
       position: absolute;
       bottom: 0;
       left: 0;
 
       @include breakpoint("medium-landscape") {
-        width: rem(68);
+        width: 4.25rem;
       }
     }
   }
@@ -54,30 +54,30 @@
   &__nav {
     width: 100%;
     text-align: center;
-    margin-top: rem(60);
+    margin-top: 3.75rem;
 
     @include breakpoint("medium-landscape") {
       width: auto;
       float: right;
-      margin-right: rem(25);
-      margin-top: rem(50);
+      margin-right: 1.5625rem;
+      margin-top: 3.125rem;
     }
 
     li {
       display: inline-block;
       @include breakpoint("medium-landscape") {
-        margin-left: rem(15);
+        margin-left: .9375rem;
       }
     }
 
     a {
       color: $white;
-      padding: rem(5);
+      padding: .3125rem;
       font-weight: bold;
       text-align: center;
 
       @include breakpoint("medium-landscape") {
-        font-size: em(25);
+        font-size: 1.25em;
       }
 
       &:hover, &:focus, &.active {

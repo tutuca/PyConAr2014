@@ -9,14 +9,14 @@
   }
 
   &__main-title {
-    margin: 0 auto rem(25);
-    font-size: em(40);
+    margin: 0 auto 1.5625rem;
+    font-size: 1.875em;
     font-weight: bold;
     font-family: "Exo";
     color: $white;
 
     @include breakpoint("medium-landscape") {
-      font-size: em(60);
+      font-size: 2.5em;
     }
   }
 

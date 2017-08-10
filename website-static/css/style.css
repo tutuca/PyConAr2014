@@ -94,48 +94,6 @@ img {
     clear: both; }
 
 /* use http://chir.ag/projects/name-that-color/ to name colors the good way */
-/*
-  px to rem
-  Converts pixels to rem
-
-  @param{pixelvalue}
-
-  @example scss - Usage
-    margin-left: rem(25);
-
-  @example css - CSS Output
-    $dimension: 1.5625rem;
-
-  @return {Number (rem)}
-*/
-/*
-  px to em
-  Convert pixels to em
-
-  @param{pixelvalue}
-
-  @example scss - Usage // with parent 16px
-    font-size: em(12);
-
-  @example css - CSS Output
-    font-size: 0.750em;
-
-  @return {Number (em)}
-
-  ~ if the parent is another value say 24px write em(12, 24)
-*/
-/*
-  Strips the unit from a number.
-  @param {Number (With Unit)} $value
-
-  @example scss - Usage
-    $dimension: strip-units(10em);
-
-  @example css - CSS Output
-    $dimension: 10;
-
-  @return {Number (Unitless)}
-*/
 @keyframes neon {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff; }
@@ -143,15 +101,15 @@ img {
     text-shadow: 0 0 35px #fff, 0 0 20px #fff, 0 0 10px #fff; } }
 
 .section-title {
-  font-size: 1.375em;
+  font-size: 1.25em;
   color: #000;
   font-weight: bold;
   line-height: 1.3;
-  margin-top: 0.9375rem;
-  margin-bottom: 1.5625rem; }
+  margin-top: .9375rem;
+  margin-bottom: 2.1875rem; }
   @media (min-width: 1024px) {
     .section-title {
-      font-size: 2em; } }
+      font-size: 1.875em; } }
 
 iframe {
   width: 100%; }
@@ -167,16 +125,16 @@ iframe {
       margin-left: 25px;
       margin-left: calc(25% - 31.25px + 50px); } }
   .page__content p {
-    margin-bottom: 1.5625rem;
+    margin-bottom: 2.1875rem;
     line-height: 1.5; }
 
 .page__title {
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: 500;
   line-height: 1.5;
   border-bottom: 1px solid #000;
   margin-top: 2.1875rem;
-  margin-bottom: 1.5625rem; }
+  margin-bottom: 2.1875rem; }
 
 @font-face {
   font-family: 'icomoon';
@@ -231,7 +189,7 @@ iframe {
   display: inline-block;
   font-size: 1em;
   font-weight: 600;
-  margin-bottom: 0.9375rem; }
+  margin-bottom: .9375rem; }
   @media (min-width: 768px) {
     .social-media__links li {
       font-size: 1.25em;
@@ -247,11 +205,11 @@ iframe {
     color: #E4D785; }
 
 .social-media__links small {
-  font-size: 0.75em; }
+  font-size: .75em; }
 
 .social-media__links i {
   font-size: 1.125em;
-  margin-right: 0.3125rem;
+  margin-right: .3125rem;
   vertical-align: middle; }
 
 .header {
@@ -309,15 +267,15 @@ iframe {
       display: inline-block; }
       @media (min-width: 1024px) {
         .header__nav li {
-          margin-left: 0.9375rem; } }
+          margin-left: .9375rem; } }
     .header__nav a {
       color: #fff;
-      padding: 0.3125rem;
+      padding: .3125rem;
       font-weight: bold;
       text-align: center; }
       @media (min-width: 1024px) {
         .header__nav a {
-          font-size: 1.5625em; } }
+          font-size: 1.25em; } }
       .header__nav a:hover, .header__nav a:focus, .header__nav a.active {
         color: #E4D785; }
 
@@ -345,13 +303,13 @@ iframe {
       background-position: center; } }
   .hero__main-title {
     margin: 0 auto 1.5625rem;
-    font-size: 2.5em;
+    font-size: 1.875em;
     font-weight: bold;
     font-family: "Exo";
     color: #fff; }
     @media (min-width: 1024px) {
       .hero__main-title {
-        font-size: 3.75em; } }
+        font-size: 2.5em; } }
   .hero__container {
     position: absolute;
     top: 50%;
@@ -417,7 +375,11 @@ iframe {
     text-align: center; }
     @media (min-width: 1024px) {
       .where .section-title {
-        text-align: left; } }
+        text-align: left;
+        max-width: 80%; } }
+    @media (min-width: 1440px) {
+      .where .section-title {
+        max-width: 70%; } }
   .where p {
     line-height: 1.3;
     margin-bottom: 1.25rem;

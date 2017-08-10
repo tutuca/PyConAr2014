@@ -1,19 +1,24 @@
 .where {
-  padding: rem(45) rem(16) rem(20);
+  padding: 2.8125rem 1rem 1.25rem;
 
   .section-title {
     color: $primary-color;
-    margin-bottom: rem(25);
+    margin-bottom: 1.5625rem;
     text-align: center;
 
     @include breakpoint("medium-landscape") {
       text-align: left;
+      max-width: 80%;
+    }
+
+    @include breakpoint("larger") {
+      max-width: 70%;
     }
   }
 
   p {
     line-height: 1.3;
-    margin-bottom: rem(20);
+    margin-bottom: 1.25rem;
     text-align: center;
 
     @include breakpoint("medium-landscape") {

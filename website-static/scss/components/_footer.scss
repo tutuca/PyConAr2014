@@ -2,15 +2,15 @@
   background-color: $port-gore;
   color: $white;
   text-align: center;
-  padding: rem(35) 0 rem(10);
+  padding: 2.1875rem 0 0.625rem;
 
   p {
     max-width: 80%;
-    margin: 0 auto rem(20);
+    margin: 0 auto 1.25rem;
   }
 
   &__cta {
-    margin-bottom: rem(20);
+    margin-bottom: 1.25rem;
     display: inline-block;
   }
 

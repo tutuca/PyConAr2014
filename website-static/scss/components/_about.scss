@@ -10,16 +10,16 @@
   }
 
   &__hero__subtitle {
-    font-size: em(16);
+    font-size: 1em;
     color: $white;
 
     @include breakpoint("medium-landscape") {
-      font-size: em(30);
+      font-size: 1.875em;
     }
   }
 
   &__links {
-    padding: rem(35) rem(16) rem(20);
+    padding: 2.1875rem 1rem 1.25rem;
 
     @include breakpoint("medium") {
       text-align: center;

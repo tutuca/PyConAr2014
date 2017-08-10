@@ -1,7 +1,7 @@
 .speakers {
   background-color: $mercury;
-  height: rem(390);
-  padding-top: rem(60);
+  height: 24.375rem;
+  padding-top: 3.75rem;
   text-align: center;
 
   .section-title {
@@ -13,7 +13,7 @@
     background-color: $cloud-burst;
     color: $white;
     display: inline-block;
-    width: rem(180);
+    width: 11.25rem;
 
     &:hover, &:focus {
       background-color: $putty;
@@ -21,16 +21,16 @@
   }
 
   p {
-    font-size: em(16);
+    font-size: 1em;
     color: $black;
     width: 80%;
     line-height: 1.4;
-    margin: rem(25) auto rem(20);
+    margin: 1.5625rem auto 1.25rem;
   }
 
   &__title {
-    font-size: em(20);
-    margin-top: rem(25);
+    font-size: 1.25em;
+    margin-top: 1.5625rem;
   }
 
   .link {
