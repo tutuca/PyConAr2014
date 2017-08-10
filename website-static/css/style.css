@@ -291,7 +291,7 @@ iframe {
     margin-bottom: 1.25rem;
     display: inline-block; }
   .footer .social-media__links li {
-    display: block; }
+    font-size: .875em; }
 
 .hero {
   height: 31vh;
