@@ -28,4 +28,19 @@
     width: 90%;
     text-align: center;
   }
+
+  &__cta {
+    background-color: $putty;
+    padding: .75rem;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 1.125rem;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      color: $white;
+      background-color: $hover-font-color;
+    }
+  }
 }
