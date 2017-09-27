@@ -11,7 +11,7 @@
   .cta {
     @extend %cta;
     background-color: $cloud-burst;
-    color: $white;
+    color: $primary-color;
     display: inline-block;
     width: 11.25rem;
 
@@ -67,5 +67,7 @@
     margin-right: 1rem;
     padding: 0;
     margin-top: 1.250rem;
+    line-height: 1.8;
+    font-size: 1em;
   }
 }

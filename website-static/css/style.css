@@ -361,7 +361,7 @@ iframe {
     color: #000; }
   .speakers .cta {
     background-color: #242E64;
-    color: #fff;
+    color: #242E64;
     display: inline-block;
     width: 11.25rem; }
     .speakers .cta:hover, .speakers .cta:focus {
@@ -401,7 +401,9 @@ iframe {
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 0;
-    margin-top: 1.250rem; }
+    margin-top: 1.250rem;
+    line-height: 1.8;
+    font-size: 1em; }
 
 .where {
   padding: 2.8125rem 1rem 1.25rem; }
