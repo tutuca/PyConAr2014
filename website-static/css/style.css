@@ -93,7 +93,8 @@ img {
   .clear:after {
     clear: both; }
 
-/* use http://chir.ag/projects/name-that-color/ to name colors the good way */
+/* use http://chir.ag/projects/name-that-color/ to name colors the good way
+http://paletton.com/#uid=33T0u0knsimdjs-iSmYsBdcAk8d */
 @keyframes neon {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff; }
@@ -135,6 +136,24 @@ iframe {
   border-bottom: 1px solid #000;
   margin-top: 2.1875rem;
   margin-bottom: 2.1875rem; }
+
+.section-infobox {
+  padding: 2rem 1rem;
+  background-color: #E6E6E6;
+  line-height: 1.5; }
+  .section-infobox__title {
+    font-size: 1.125em;
+    color: #242E64;
+    font-weight: bold;
+    margin-bottom: 1em; }
+
+.inner-section {
+  margin-top: 2rem; }
+  .inner-section .section-title {
+    text-align: left;
+    color: #242E64; }
+  .inner-section p {
+    line-height: 1.5; }
 
 @font-face {
   font-family: 'icomoon';
@@ -357,8 +376,16 @@ iframe {
   background-color: #fff;
   padding-top: 3.75rem;
   text-align: center; }
+  @media (min-width: 768px) {
+    .speakers .speakers__container::after {
+      clear: both;
+      content: "";
+      display: block; } }
   .speakers .section-title {
     color: #000; }
+  .speakers .main__title {
+    font-size: 1.975em;
+    margin: 0 0 1em; }
   .speakers .cta {
     background-color: #242E64;
     color: #242E64;
@@ -366,21 +393,18 @@ iframe {
     width: 11.25rem; }
     .speakers .cta:hover, .speakers .cta:focus {
       background-color: #E4D785; }
-  .speakers__title {
-    font-size: 1.25em;
-    margin-top: 1.5625rem; }
-  .speakers .link {
-    color: #405BA8; }
   .speakers__item {
     text-align: left;
     margin-bottom: 2rem; }
-    @media (min-width: 1024px) {
+    @media (min-width: 768px) {
       .speakers__item {
         width: calc(50% - 37.5px);
         float: left;
         margin-left: 25px; } }
     .speakers__item img {
-      max-width: 90%;
+      max-width: 15rem;
+      height: 12.5rem;
+      object-fit: cover;
       margin: 0 auto 2rem;
       border: 2px solid #405BA8;
       border-radius: 5px; }
@@ -435,6 +459,59 @@ iframe {
       width: calc(50% - 37.5px);
       float: left;
       margin-left: 25px; } }
+
+.info {
+  padding: 1em;
+  border-bottom: 1px solid #E6E6E6; }
+  .info p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    text-align: left; }
+  .info > .section-title {
+    color: #242E64;
+    margin-bottom: 1.5625rem;
+    text-align: center; }
+  .info__subtitle {
+    font-size: .75em;
+    text-align: center; }
+    @media (min-width: 1024px) {
+      .info__subtitle {
+        font-size: 1em; } }
+  .info .link {
+    color: #242E64;
+    border-bottom: 1px solid;
+    transition: all .3s ease-in-out; }
+    .info .link:hover {
+      color: #E4D785;
+      border-color: #E4D785; }
+  .info .hero__cta {
+    display: block;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+    @media (min-width: 768px) {
+      .info .hero__cta {
+        max-width: 17.81rem; } }
+    @media (min-width: 1024px) {
+      .info .hero__cta {
+        font-size: 1.5em;
+        max-width: 29rem;
+        padding-top: 1.125rem;
+        padding-bottom: 1.125rem; } }
+  .info__list {
+    padding-left: 1em;
+    list-style-type: disc;
+    list-style-position: outside; }
+    .info__list li {
+      margin-bottom: 1.5rem; }
+    .info__list .link {
+      display: block;
+      border: 0 none;
+      line-height: 1.5; }
+  .info__list__title {
+    font-size: 1.125em;
+    font-weight: bold;
+    margin-bottom: .125rem; }
 
 html {
   font-size: 16px;

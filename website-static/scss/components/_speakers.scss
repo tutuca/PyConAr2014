@@ -4,8 +4,19 @@
   padding-top: 3.75rem;
   text-align: center;
 
+  .speakers__container {
+    @include breakpoint("medium") {
+       @include grid-container;
+    }
+  }
+
   .section-title {
     color: $black;
+  }
+
+  .main__title {
+    font-size: 1.975em;
+    margin: 0 0 1em;
   }
 
   .cta {
@@ -20,26 +31,18 @@
     }
   }
 
-
-  &__title {
-    font-size: 1.25em;
-    margin-top: 1.5625rem;
-  }
-
-  .link {
-    color: $san-marino;
-  }
-
   &__item {
     text-align: left;
     margin-bottom: 2rem;
 
-    @include breakpoint("medium-landscape") {
+    @include breakpoint("medium") {
       @include grid-column(6);
     }
 
     img {
-      max-width: 90%;
+      max-width: 15rem;
+      height: 12.5rem;
+      object-fit: cover;
       margin: 0 auto 2rem;
       border: 2px solid $san-marino;
       border-radius: 5px;

@@ -39,3 +39,29 @@ iframe {
   margin-top: 2.1875rem;
   margin-bottom: 2.1875rem;
 }
+
+.section-infobox {
+  padding: 2rem 1rem;
+  background-color: $mercury;
+  line-height: 1.5;
+
+  &__title {
+    font-size: 1.125em;
+    color: $primary-color;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+}
+
+.inner-section {
+  margin-top: 2rem;
+
+  .section-title {
+    text-align: left;
+    color: $primary-color;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+}
