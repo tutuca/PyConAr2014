@@ -1,6 +1,6 @@
 .info {
   padding: 1em;
-  border-bottom: 1px solid $mercury;
+  border-top: 1px solid $putty;
 
   p {
     line-height: 1.5;
@@ -56,12 +56,20 @@
     list-style-type: disc;
     list-style-position: outside;
 
+    @include breakpoint("medium-landscape") {
+      margin-top: 2rem;
+      @include grid-container();
+    }
+
     li {
       margin-bottom: 1.5rem;
+      @include breakpoint("medium-landscape") {
+        @include grid-column(4);
+      }
     }
 
     .link {
-      display: block;
+      display: inline-block;
       border: 0 none;
       line-height: 1.5;
     }
@@ -71,6 +79,10 @@
     font-size: 1.125em;
     font-weight: bold;
     margin-bottom: .125rem;
+  }
+
+  &.register {
+    
   }
 
 }

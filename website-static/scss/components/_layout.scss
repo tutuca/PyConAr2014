@@ -55,9 +55,12 @@ iframe {
 
 .inner-section {
   margin-top: 2rem;
+  max-width: 61.35rem;
+  margin-left: auto;
+  margin-right: auto;
 
   .section-title {
-    text-align: left;
+    text-align: center;
     color: $primary-color;
   }
 

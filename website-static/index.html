@@ -27,10 +27,13 @@
     </h1>
     <nav class="header__nav">
       <ul>
-        <li><a class="header__nav__link" href="index.html#when">Cúando</a></li>
-        <li><a class="header__nav__link" href="speakers.html">Speakers</a></li>
-        <li><a class="header__nav__link" href="index.html#where">Dónde</a></li>
-        <li><a class="header__nav__link" href="info.html">Info</a></li>
+        <li><a class="header__nav__link" href="index.html#when">Cuándo</a></li>
+        <li><a class="header__nav__link" href="index.html#register">Registración</a></li>
+        <li><a class="header__nav__link" href="index.html#speakers">Speakers</a></li>
+        <li><a class="header__nav__link" href="index.html#becas">Becas</a></li>
+        <li><a class="header__nav__link" href="index.html#hospedaje">Hospedaje</a></li>
+        <li><a class="header__nav__link" href="index.html#contact">Contacto</a></li>
+
       </ul>
     </nav>
   </header>
@@ -40,10 +43,28 @@
       <div class="hero__container">
         <h1 class="about__hero__main-title hero__main-title">17, 18 y 19 de Noviembre</h1>
         <h2 class="about__hero__subtitle">Ciudad Universitaria UNC, Cordoba, Argentina</h2>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7h7HiNVLuZfzOlx8sfIRCKGG5_oOvtxeKWiKOm5Am0HmMsA/viewform" target="_blank" class="hero__cta">Registrate para asistir al evento</a>
       </div>
     </div>
+  </section>
+  <section class="where clear" id="where">
+    <div class="where__container">
+      <h3 class="section-title">La conferencia se desarrollara en las Baterias D de la Ciudad Universitaria.</h3>
+      <p>Habrá stands, talleres, múltiples tracks de charlas, espacios de networking y sprints.</p>
+    </div>
 
+    <iframe class="where__map"
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13616.619364968756!2d-64.1864303!3d-31.4374039!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd031575c5261e9e1!2sModulo+Baterias+%22D%22+-+Honorable+Consejo+Superior%2C+C%C3%B3rdoba%2C+Argentina!5e0!3m2!1ses-419!2sar!4v1499226402085"
+    width="400" height="300" frameborder="0" class="embed-responsive-item" style="border:0" allowfullscreen></iframe>
+  </section>
+
+  <section class="info register" id="register">
+    <div class="inner-section">
+      <h1 class="section-title">Asistir a la PyConAr 2017</h1>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7h7HiNVLuZfzOlx8sfIRCKGG5_oOvtxeKWiKOm5Am0HmMsA/viewform" target="_blank" class="hero__cta">Registrate</a>
+    </div>
+  </section>
+  <section class="about" id="contact">
     <ul class="about__links social-media__links">
       <li>IRC: irc.freenode.org <a href="irc://irc.freenode.org:6697/pyar">#pyar</a><small> (usuarios tutuca y gaucho)</small>
       </li>
@@ -55,43 +76,69 @@
   </section>
 
   <section class="speakers" id="speakers">
-    <h1 class="section-title">Keynotes Speakers</h1>
+    <h1 class="section-title main__title">Keynotes Speakers</h1>
     <div class="speakers__container">
       <div class="speakers__item">
-        <a href="speakers.html" title="keynotes">
-          <img alt="Ola Sendecka" src="http://68.media.tumblr.com/604c835146506a4420c61a3388700586/tumblr_inline_nbl2tsTQTa1sescfp.jpg" />
+        <img alt="Ola Sendecka" src="http://68.media.tumblr.com/604c835146506a4420c61a3388700586/tumblr_inline_nbl2tsTQTa1sescfp.jpg" />
 
-          <h4 class="speakers__item__name">
-            Ola Sendecka
-          </h4>
-        </a>
+        <h4 class="speakers__item__name">
+          <a href="https://twitter.com/asendecka" target="_blank">Ola Sendecka</a>
+        </h4>
+
+        <p class="speakers__item__text">Bio: I'm a web developer, working currently mostly with Django and Python. Apart from full-time job, I spend my free time doing community work: organizing conferences, Django sprints and Django Girls events. I am a co-founder of Django Girls - initiative that aims to bring more women into Python world. I have organized a couple of Django Girls workshop, co-authored tutorial that is used during the workshop and I am frequently a coach as well.</p>
       </div>
 
       <div class="speakers__item">
-        <a href="speakers.html" title="keynotes">
-          <img alt="" src="img/lucio.jpg" />
+        <img alt="" src="img/lucio.jpg" />
 
-          <h4 class="speakers__item__name">
-            <a href="https://twitter.com/luciotorre" target="_blank">Lucio Torre</a>
-          </h4>
-        </a>
+        <h4 class="speakers__item__name">
+          <a href="https://twitter.com/luciotorre" target="_blank">Lucio Torre</a>
+        </h4>
+
+        <p class="speakers__item__text">Bio: Funde una empresa de seguridad informatica. Perdí el tiempo con dispositivos moviles en los 90s. Porte python 1.4 a PamOS. Fui parte de la cabal originaria de python argentina. Participe en la creacion de cocos2d (si, ese que llego a estar en mas del 10% de las instalaciones en iphone). Maneje petabytes y millones de usuarios para Canonical, aka ubuntu. Ahora creo software y manejo una flota de Satelites.</p>
       </div>
     </div>
+    <!--/
     <div class="section-infobox">
       <h5 class="section-infobox__title">Vos podes ser parte del evento</h5>
       <p>Podes registrarte como ayudante lorem ipsum dolo sarasa registrandote <a href="#">acá</a>! </p>
-    </div>
+    </div>/-->
+
   </section>
 
-  <section class="where clear" id="where">
-    <div class="where__container">
-      <h3 class="section-title">La conferencia se desarrollara en las Baterias D de la Ciudad Universitaria.</h3>
-      <p>Habrá stands, talleres, múltiples tracks de charlas, espacios de networking y sprints.</p>
-    </div>
 
-    <iframe class="where__map"
-    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13616.619364968756!2d-64.1864303!3d-31.4374039!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd031575c5261e9e1!2sModulo+Baterias+%22D%22+-+Honorable+Consejo+Superior%2C+C%C3%B3rdoba%2C+Argentina!5e0!3m2!1ses-419!2sar!4v1499226402085"
-    width="400" height="300" frameborder="0" class="embed-responsive-item" style="border:0" allowfullscreen></iframe>
+
+  <section class="info" id="becas">
+    <div class="inner-section">
+      <h3 class="section-title">Becas para asistir a la PyConAR 2017.</h3>
+      <p>Las becas son para subvencionar lo más posible del costo de traslado a la PyConAR 2017 con el objetivo de reforzar la diversidad, en función de la cantidad de becas pedidas.</p>
+
+      <p>Hay tiempo hasta el XX de XXXXX inclusive para mandar el pedido, el cual lo tienen que hacer por medio de <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLScuQiRc2aM9ZaDN-48WluX2S4kzPA7hGFuxKz5m1A8zZKV8AQ/viewform">éste</a> formulario.</p>
+    </div>
+  </section>
+  <section class="info" id="hospedaje">
+    <div class="inner-section">
+      <h3 class="section-title">Hospedaje</h3>
+      <p>Estos alojamientos ofrecen descuentos para los asistentes PyConAR 2017. La tarifa es $250 con desayuno incluido. Para obtener esa tarifa debe presentar o remitir comprobante de inscripción a la PyConAR 2017 al momento de abonar.</p>
+
+      <ul class="info__list">
+        <li>
+          <h5 class="info__list__title">TANGO HOSTEL CORDOBA</h5>
+          <a class="link" href="http://www.tangohostelcordoba.com/" title="tangohostelcordoba">web: www.tangohostelcordoba.com</a>
+          <a class="link" href="https://www.facebook.com/tangohostel.cordoba/" title="tangohostelcordoba">fb: tangohostel.cordoba</a>
+        </li>
+        <li>
+          <h5 class="info__list__title">LINK HOSTEL</h5>
+          <a class="link" href="http://www.linkcordobahostel.com/" title="linkcordobahostel">web: www.linkcordobahostel.com</a>
+          <a class="link" href="http://www.facebook.com/linkcordobahostel" title="tangohostelcordoba">fb: linkcordobahostel</a>
+        </li>
+        <li>
+          <h5 class="info__list__title">531HOSTEL</h5>
+          <a class="link" href="http://hostelencordoba.com.ar/es/hostel-en-cordoba/" title="hostel en cordoba">web: hostelencordoba.com.ar</a>
+          <a class="link" href="https://www.facebook.com/531hostel/" title="531hostel">fb: 531hostel</a>
+        </li>
+      </ul>
+    </div>
   </section>
 
   <footer class="footer">
