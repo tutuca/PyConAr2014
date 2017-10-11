@@ -1,0 +1,32 @@
+.sponsors {
+  border-top: 1px solid $putty;
+  background-color: $white;
+  padding-top: 3.75rem;
+  text-align: center;
+
+  &__container {
+     @include grid-container;
+  }
+
+  .main__title {
+    font-size: 1.975em;
+    margin: 0 0 1em;
+  }
+
+
+  &__item {
+    border: 0 none;
+    margin-bottom: 2.5rem;
+    @include grid-column(3);
+    img {
+      max-width: 80%;
+      margin: 0 auto;
+      display: block;
+    }
+
+    @include breakpoint("medium-landscape") {
+      @include grid-column(2);
+    }
+  }
+
+}

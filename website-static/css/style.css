@@ -671,6 +671,82 @@ iframe {
     font-weight: bold;
     margin-bottom: .125rem; }
 
+.schedule {
+  border-top: 1px solid #E4D785;
+  background-color: #fff;
+  padding-top: 3.75rem;
+  text-align: center; }
+  .schedule__container::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .schedule .section-title {
+    color: #000; }
+  .schedule .main__title {
+    font-size: 1.975em;
+    margin: 0 0 1em; }
+  .schedule__item {
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    margin-bottom: 2rem;
+    width: calc(50% - 37.5px);
+    float: left;
+    margin-left: 25px; }
+    @media (min-width: 1024px) {
+      .schedule__item {
+        width: calc(25% - 31.25px);
+        float: left;
+        margin-left: 25px; } }
+  .schedule__item__top {
+    background-color: #f8f8f8;
+    padding: .5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: .625rem; }
+  .schedule__item__main {
+    padding: .5rem; }
+    .schedule__item__main span {
+      float: right;
+      margin-right: 1.125rem; }
+    .schedule__item__main p {
+      line-height: 1.5;
+      margin-bottom: .5rem; }
+    .schedule__item__main h4 {
+      font-weight: bold;
+      color: #405BA8;
+      max-width: 80%;
+      margin-bottom: .9375rem; }
+  .schedule__item__time {
+    font-size: .875em; }
+
+.sponsors {
+  border-top: 1px solid #E4D785;
+  background-color: #fff;
+  padding-top: 3.75rem;
+  text-align: center; }
+  .sponsors__container::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .sponsors .main__title {
+    font-size: 1.975em;
+    margin: 0 0 1em; }
+  .sponsors__item {
+    border: 0 none;
+    margin-bottom: 2.5rem;
+    width: calc(25% - 31.25px);
+    float: left;
+    margin-left: 25px; }
+    .sponsors__item img {
+      max-width: 80%;
+      margin: 0 auto;
+      display: block; }
+    @media (min-width: 1024px) {
+      .sponsors__item {
+        width: calc(16.66667% - 29.16667px);
+        float: left;
+        margin-left: 25px; } }
+
 html {
   font-size: 16px;
   font-family: "Exo"; }

@@ -1,0 +1,64 @@
+.schedule {
+  border-top: 1px solid $putty;
+  background-color: $white;
+  padding-top: 3.75rem;
+  text-align: center;
+
+  &__container {
+     @include grid-container;
+  }
+
+  .section-title {
+    color: $black;
+  }
+
+  .main__title {
+    font-size: 1.975em;
+    margin: 0 0 1em;
+  }
+
+
+  &__item {
+    text-align: left;
+    border: 1px solid rgba($black, 0.7);
+    margin-bottom: 2rem;
+    @include grid-column(6);
+
+    @include breakpoint("medium-landscape") {
+      @include grid-column(3);
+    }
+  }
+
+  &__item__top {
+    background-color: $alabaster;
+    padding: .5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: .625rem;
+  }
+
+  &__item__main {
+    padding: .5rem;
+
+    span {
+      float: right;
+      margin-right: 1.125rem;
+    }
+
+    p {
+      line-height: 1.5;
+      margin-bottom: .5rem;
+    }
+
+    h4 {
+      font-weight: bold;
+      color: $san-marino;
+      max-width: 80%;
+      margin-bottom: .9375rem;
+    }
+  }
+
+  &__item__time {
+    font-size: .875em;
+  }
+}
