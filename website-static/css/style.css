@@ -718,6 +718,8 @@ iframe {
       margin-bottom: .9375rem; }
   .schedule__item__time {
     font-size: .875em; }
+  .schedule iframe {
+    width: 90%; }
 
 .sponsors {
   border-top: 1px solid #E4D785;
