@@ -725,6 +725,7 @@ iframe {
   border-top: 1px solid #E4D785;
   background-color: #fff;
   padding-top: 3.75rem;
+  vertical-align: middle;
   text-align: center; }
   .sponsors__container::after {
     clear: both;
@@ -737,16 +738,20 @@ iframe {
     border: 0 none;
     margin-bottom: 2.5rem;
     width: calc(25% - 31.25px);
-    float: left;
-    margin-left: 25px; }
+    display: inline-block;
+   }
+  .sponsors__item__square { border: 2px solid #FFF; }
     .sponsors__item img {
       max-width: 80%;
-      margin: 0 auto;
-      display: block; }
+      margin: 0 auto; }
+    .sponsors__item__square img {
+      width:100px;
+    }
     @media (min-width: 1024px) {
       .sponsors__item {
         width: calc(16.66667% - 29.16667px);
-        float: left;
+        display: inline-block;
+        vertical-align: middle;
         margin-left: 25px; } }
 
 html {
